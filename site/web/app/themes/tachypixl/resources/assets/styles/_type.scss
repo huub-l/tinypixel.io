@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Simplon Mono';
+  src: url('./../fonts/SimplonMono-Bold.eot');
+  src:
+    url('./../fonts/SimplonMono-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./../fonts/SimplonMono-Bold.woff2') format('woff2'),
+    url('./../fonts/SimplonMono-Bold.woff') format('woff'),
+    url('./../fonts/SimplonMono-Bold.ttf') format('truetype'),
+    url('./../fonts/SimplonMono-Bold.svg#SimplonMono-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Simplon Mono';
+  src: url('./../fonts/SimplonMono-Light.eot');
+  src:
+    url('./../fonts/SimplonMono-Light.eot?#iefix') format('embedded-opentype'),
+    url('./../fonts/SimplonMono-Light.woff2') format('woff2'),
+    url('./../fonts/SimplonMono-Light.woff') format('woff'),
+    url('./../fonts/SimplonMono-Light.ttf') format('truetype'),
+    url('./../fonts/SimplonMono-Light.svg#SimplonMono-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Simplon Mono';
+  src: url('./../fonts/SimplonMono-Medium.eot');
+  src:
+    url('./../fonts/SimplonMono-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./../fonts/SimplonMono-Medium.woff2') format('woff2'),
+    url('./../fonts/SimplonMono-Medium.woff') format('woff'),
+    url('./../fonts/SimplonMono-Medium.ttf') format('truetype'),
+    url('./../fonts/SimplonMono-Medium.svg#SimplonMono-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Eczar:200,400,600|Heebo:400,700');
