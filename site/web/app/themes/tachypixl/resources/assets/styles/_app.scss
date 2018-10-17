@@ -6,12 +6,11 @@
   top: 3rem;
 }
 
-html,
 .front-page {
   background: black;
 }
 
-.page-template-default {
+.page-data {
   background: #fff;
 
   footer {
@@ -119,13 +118,6 @@ canvas#drip {
       $t 50px
     );
   background-size: 50px 50px;
-}
-
-.home {
-  footer {
-    background: url('../images/svg/bisecting.svg');
-    background-size: 115%;
-  }
 }
 
 footer #tiny-horizontal-logo {
