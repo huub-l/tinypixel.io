@@ -10,6 +10,9 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
+# Plugins
+!web/app/plugins/wp-simple-pay-3
+
 # Dotenv
 .env
 .env.*

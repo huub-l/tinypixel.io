@@ -34,7 +34,7 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-relative-urls');
     add_theme_support('soil-disable-trackbacks');
     add_theme_support('soil-js-to-footer');
-    add_theme_support('soil-google-analytics', '');
+    add_theme_support('soil-google-analytics', 'UA-127653918-1');
 
     /**
      * Enable plugins to manage the document title
