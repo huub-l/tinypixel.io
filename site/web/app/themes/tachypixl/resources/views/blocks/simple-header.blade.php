@@ -7,8 +7,8 @@
   </div>
 </div>
 @endif
-<header class="ph0-l pt3 pb3 ph4-l header">
-  <div class="mw8 pa4 pt7 pb6 white ml-auto mr-auto">
+<header class="ph0-l pt7 pb0 ph4-l vh-100 header">
+  <div class="mw8 pa4 mt6 pt7 pb6 white ml-auto mr-auto">
     <h1 class="white"><a href="{{ home_url('/') }}" alt="{{ get_bloginfo('name', 'display') }}">@svg ( 'logo-horizontal' )</a><br/>
     <span class="code f3 fw1 ttu lh-solid white">Translating Powerful Ideas Into Mainstream Discourse</h1>
   </div>

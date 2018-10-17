@@ -36,15 +36,14 @@
       </div>
     </div>
   </div>
-  <div class="pa4 pb2 pt0 pt0 mt0 mh0 ph0-l mw8 center">
-      <article>
-        <h3 class="f4 tracked fw6 bb bw2 pb2 mb5-l mb-1 sans-serif">Deep cuts</h3>
+  <div class="pa4 pb2 pt0 pt0 mt0 mh0 mw8 center">
+        <h3 class="f4 tracked fw3 bb bw2 pb2 mb5-l mb-1 sans-serif">Deep cuts</h3>
         <div class="cf items-top tracked">
           <a class="fl w-100 w-100-m w-33-l mb4 mb5-l link black hover-bg-black hover-light-blue border-box" href="http://standwithstandingrock.net/">
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">Standing Rock Sioux Tribe</span>
+                  <span class="f3 f3-l lh-title code grow">Standing Rock Sioux Tribe</span>
                 </span>
               </span>
             </div>
@@ -53,7 +52,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc">
-                  <span class="f2 f3-l lh-title code grow">Other98</span>
+                  <span class="f3 lh-title code grow">Other98</span>
                 </span>
               </span>
             </div>
@@ -62,7 +61,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">NDN</span>
+                  <span class="f3 lh-title code grow">NDN</span>
                 </span>
               </span>
             </div>
@@ -71,7 +70,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa5-l">
-                  <span class="f2 f3-l lh-title code grow">Social Security News</span>
+                  <span class="f3 lh-title code grow">Social Security News</span>
                 </span>
               </span>
             </div>
@@ -80,7 +79,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">StopKM Legal Defense Fund</span>
+                  <span class="f3 lh-title code grow">StopKM Legal Defense Fund</span>
                 </span>
               </span>
             </div>
@@ -89,7 +88,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">The Ruckus Society</span>
+                  <span class="f3 lh-title code grow">The Ruckus Society</span>
                 </span>
               </span>
             </div>
@@ -98,7 +97,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa3-l">
-                  <span class="f2 f3-l lh-title code grow">Standing Rock CDC</span>
+                  <span class="f3 lh-title code grow">Standing Rock CDC</span>
                 </span>
               </span>
             </div>
@@ -107,7 +106,7 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">Muslim Power Change</span>
+                  <span class="f3 lh-title code grow">Muslim Power Change</span>
                 </span>
               </span>
             </div>
@@ -116,15 +115,15 @@
             <div class="aspect-ratio aspect-ratio--2x1-l aspect-ratio--16x9">
               <span class="aspect-ratio--object flex items-center grow">
                 <span class="center tc center tc pa4-l">
-                  <span class="f2 f3-l lh-title code grow">Dream Defenders</span>
+                  <span class="f3 lh-title code grow">Dream Defenders</span>
                 </span>
               </span>
             </div>
           </a>
         </div>
-      </article>
-      <article class="mt5 pa4 pb6 cf">
-        <h3 class="fl w-100 f4 fw6 bb bw2 pb2 mb4 sans-serif tracked">Clients &amp; Partners</h3>
+    </div>
+    <div class="pa4 pb2 pt0 pt0 mt0 mh0 mw8 center cf">
+        <h3 class="fl w-100 f4 fw3 bb bw2 pb2 mb5 sans-serif tracked">Clients &amp; Partners</h3>
         <div class="w-50-l w-100 fl">
         <a class="link fw7 f3 mb5 db black hover-blue mr4-l" href="https://newfloridamajority.org">
           <span class="db mb1 code">New Florida Majority</span>
@@ -168,19 +167,16 @@ Action-oriented and community-focused, The Miami Climate Alliance has played a k
           <span class="lh-copy f6 fw3 code measure">Decades of direct action in defense of our pale blue dot.</span>
         </a>
         </div>
-      </article>
-      <article class="mt0 pa4 pb6 pt0 cf">
-          <div class="pt0 pt0 mt0 mh0 ph0-l mw8 center">
-      <p class="f4-ns f2 fw1 ttu code lh-solid">
+    </div>
+    <div class="pa4 pl4 db pb6 pt5 mw8 center">
+      <p class="f3-l f3-m f4 fw1 ttu code lh-copy">
         Let's build power together.
       </p>
-      <h1 class="f2 tracked sans-serif mt0 mb0 mb0-ns fw6 lh-copy sans-serif ttu code">
+      <h1 class="f2-l f4 tracked sans-serif mt0 mb0 mb0-ns fw6 lh-copy sans-serif ttu code">
         <a href="mailto:developers@tinypixel.io" class="hot-pink">developers@tinypixel.io.</a><br />
         <a class="light-blue" href="tel:+13603862633">Call/Txt: 360&middot;386&middot;CODE.</a><br />
         <a class="light-purple" href="https://comradecoms.slack.com">Join us on Slack.</a>
       </h1>
-    </div>
-    </article>
     </div>
   </div>
 </div>
