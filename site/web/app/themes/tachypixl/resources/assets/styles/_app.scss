@@ -2,8 +2,13 @@
   font-family: 'eczar', Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-  background: hsl(0, 0%, 7%);
+.fixed.top-1 {
+  top: 3rem;
+}
+
+html,
+.front-page {
+  background: black;
 }
 
 .white svg {

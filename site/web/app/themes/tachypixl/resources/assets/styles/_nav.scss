@@ -1,0 +1,72 @@
+.navigator {
+  @extend .pl4;
+
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.logo {
+  svg {
+    width: 50%;
+    fill: white;
+  }
+}
+
+#menu-primary {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    left: -999em; // "Hide" the sub-menus
+
+    @extend .bg-black;
+  }
+
+  li {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+
+    @extend .white;
+    @extend .code;
+  }
+
+  li li {
+    display: block;
+  }
+
+  li:hover {
+    ul {
+      left: auto;
+    }
+
+    &:hover {
+      > ul {
+        left: 100%;
+        top: 0;
+      }
+    }
+  }
+
+  a {
+    @extend .white;
+
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    padding: 10px 15px;
+  }
+
+  a:hover {
+    @extend .light-purple;
+  }
+}
