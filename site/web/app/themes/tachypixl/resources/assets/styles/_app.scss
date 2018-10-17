@@ -11,6 +11,14 @@ html,
   background: black;
 }
 
+.page-template-default {
+  background: #fff;
+
+  footer {
+    background: black;
+  }
+}
+
 .white svg {
   fill: #fff;
 
@@ -113,9 +121,11 @@ canvas#drip {
   background-size: 50px 50px;
 }
 
-footer {
-  background: url('../images/svg/bisecting.svg');
-  background-size: 115%;
+.home {
+  footer {
+    background: url('../images/svg/bisecting.svg');
+    background-size: 115%;
+  }
 }
 
 footer #tiny-horizontal-logo {
@@ -223,4 +233,16 @@ footer #tiny-horizontal-logo {
     @extend .mv4;
     @extend .eczar;
   }
+}
+
+.simpay-payment-btn {
+  @extend .code;
+  @extend .fw1;
+  @extend .ttu;
+  @extend .f5;
+  @extend .bg-transparent;
+  @extend .ba;
+  @extend .b--black;
+  @extend .ph2;
+  @extend .pv1;
 }

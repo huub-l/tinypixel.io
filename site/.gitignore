@@ -11,7 +11,7 @@ web/wp
 web/.htaccess
 
 # Plugins
-!web/app/plugins/wp-simple-pay-3
+!web/app/plugins/wp-simple-pay-pro-3
 
 # Dotenv
 .env

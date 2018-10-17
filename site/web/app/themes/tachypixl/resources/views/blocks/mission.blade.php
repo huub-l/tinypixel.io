@@ -1,5 +1,4 @@
 <section class="pt1 pb4">
-  <h4 class="pv3 code f5 fw1 lh-title mt0 ttu mw-80 tracked">Translating Powerful Ideas Into Mainstream Discourse</h4>
   <p class="code lh-copy measure f6 mt0 pb2 fw1">
     The Tiny Pixel Collective is a small design, 
     web development and branding agency for non-profits, 
