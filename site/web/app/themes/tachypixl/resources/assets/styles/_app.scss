@@ -237,4 +237,7 @@ footer #tiny-horizontal-logo {
   @extend .b--black;
   @extend .ph2;
   @extend .pv1;
+  @extend .grow;
+  @extend .hover-bg-black;
+  @extend .hover-white;
 }
