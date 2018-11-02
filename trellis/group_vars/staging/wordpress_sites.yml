@@ -20,6 +20,6 @@ wordpress_sites:
     backup:
       enabled: true
       auto: false
-      target: b2://account_id:application_key@tinypixel-io-backups/tinypixel-io/
+      target: s3+https://tiny-pixel-backups.sfo2.digitaloceanspaces.com/tinypixel-io/
       schedule: '0 0 3 * * ?'
       purge: true
