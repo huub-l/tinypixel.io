@@ -1,0 +1,8 @@
+.ripple {
+  @include mdc-ripple-surface;
+  @include mdc-ripple-radius-bounded;
+  @include mdc-states-base-color($mdc-theme-surface);
+  @include mdc-states-hover-opacity(0.1);
+  @include mdc-states-focus-opacity(0.3);
+  @include mdc-states-press-opacity(0.4);
+}

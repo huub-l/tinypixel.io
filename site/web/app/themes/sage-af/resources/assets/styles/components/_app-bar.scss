@@ -1,0 +1,57 @@
+.mdc-top-app-bar__title {
+  @extend .brand-type-display;
+  @extend .ba;
+  @extend .ph2;
+  @extend .ml3;
+
+  a {
+    @extend .brand-color-light;
+    @extend .no-underline;
+  }
+}
+
+.mdc-drawer__content div.db {
+  @extend .ph3;
+  @extend .pt3;
+  @extend .f6;
+  @extend .lh-copy;
+
+  display: block !important;
+  width: 100% !important;
+  max-width: 90% !important;
+  min-width: 90% !important;
+  float: left;
+}
+
+.app-bar .mdc-button {
+  color: $mdc-theme-surface;
+
+  @include mdc-states-base-color($mdc-theme-surface);
+}
+
+[dir="rtl"] .mdc-list-item .mdc-list-item__graphic {
+  @extend .ml0;
+
+  margin-right: 32px;
+}
+
+.app-bar .mdc-top-app-bar__section--align-end .top-menu {
+  // filler
+}
+
+.app-bar .mdc-top-app-bar__section--align-end .mdc-button {
+  @extend .dn;
+}
+
+.menu-item {
+  @extend .ml1;
+}
+
+.current-menu-item::before {
+  background: white !important;
+  opacity: 0.4 !important;
+}
+
+.mdc-top-app-bar--fixed-adjust {
+  overflow-y: hidden;
+}

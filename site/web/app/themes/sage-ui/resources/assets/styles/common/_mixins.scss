@@ -1,0 +1,141 @@
+/* breakpoints */
+@mixin large {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media only screen and (max-width: 30em) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media screen and (max-width: $screen-sm) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media screen and (min-width: $screen-md-low) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin md-only {
+  @media screen and (min-width: $screen-md-low) and (max-width: $screen-lg-low) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media screen and (min-width: $screen-lg-low) {
+    @content;
+  }
+}
+
+/* anime */
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+/* transitions */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+/* opacity */
+@mixin opacity($opacity) {
+  opacity: $opacity;
+
+  $opacity-ie: $opacity * 100;
+
+  filter: alpha(opacity=$opacity-ie);
+}
+
+/* clearfix */
+%clearfix {
+  *zoom: 1;
+
+  &::before,
+  &::after {
+    content: " ";
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+/* hidden */
+%hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+/* border-radius */
+@mixin border-radius ( $value: 3px ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+
+  // keeps background from busting out of border
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* box-shadow */
+@mixin box-shadow( $horiz : 0.5em, $vert : 0.5em, $blur : 0, $spread : 0, $color : #000) {
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}

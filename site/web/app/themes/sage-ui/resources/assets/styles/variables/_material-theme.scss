@@ -1,0 +1,68 @@
+$mdc-theme-primary: rgb(58, 4, 152);
+$mdc-theme-on-primary: #fff;
+$mdc-theme-secondary: rgb(3, 151, 181);
+$mdc-theme-on-secondary: rgb(58, 4, 152);
+$mdc-theme-background: rgb(248, 248, 248);
+$mdc-theme-surface: #fff;
+$mdc-theme-on-surface: rgb(58, 4, 152);
+$mdc-theme-accent: rgb(3, 151, 181);
+$mdc-theme-error: #b00020;
+
+$mdc-theme-text-colors: (
+  dark: (
+    primary: rgba(black, 0.87),
+    secondary: rgba(black, 0.54),
+    hint: rgba(black, 0.38),
+    disabled: rgba(black, 0.38),
+    icon: rgba(black, 0.38)
+  ),
+  light: (
+    primary: white,
+    secondary: rgba(white, 0.7),
+    hint: rgba(white, 0.5),
+    disabled: rgba(white, 0.5),
+    icon: rgba(white, 0.5)
+  )
+);
+
+$mdc-typography-font-family: $code;
+
+$mdc-typography-base: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-button: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-headline1: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-headline2: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-headline3: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-headline4: (
+  font-family: $sans-serif,
+);
+
+$mdc-typography-styles-headline5: (
+  font-family: $code,
+  text-transform: uppercase,
+);
+
+$mdc-typography-styles-headline6: (
+  font-family: $code,
+  text-transform: uppercase,
+);
+
+.mdc-layout-grid {
+  @include mdc-layout-grid('phone', $grid-margin, $grid-max-width);
+  @include mdc-layout-grid('tablet', $grid-margin, $grid-max-width);
+  @include mdc-layout-grid('desktop', $grid-margin, $grid-max-width);
+}

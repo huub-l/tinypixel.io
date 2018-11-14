@@ -1,0 +1,8 @@
+$screen-sm: 30em;
+$screen-md-low: 30em;
+$screen-md-high: 60em;
+$screen-lg-low: 60em;
+
+$breakpoint-not-small: 'screen and (min-width: $screen-md-low)';
+$breakpoint-medium: 'screen and (min-width: $screen-md-low) and ($screen-lg-low)';
+$breakpoint-large: 'screen and (min-width: $screen-lg-low)';

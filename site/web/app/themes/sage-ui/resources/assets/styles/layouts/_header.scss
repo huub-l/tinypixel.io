@@ -1,0 +1,47 @@
+header {
+  @include focus-in();
+
+  h1,
+  h2 {
+    color: $mdc-theme-surface;
+  }
+
+  h1 {
+    @extend .f1;
+    @extend .lh-title;
+  }
+
+  h2 {
+    @extend .f4;
+    @extend .code;
+    @extend .lh-title;
+  }
+
+  h4 {
+    font-family: $code;
+  }
+
+  svg {
+    opacity: 1;
+    max-width: 100%;
+  }
+}
+
+.backsplash {
+  background-size: cover;
+  background-position: center;
+
+  .backsplash-screen {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+
+    @extend .pt7;
+    @extend .pb5;
+    @extend .ph4;
+
+    @include lg {
+      padding-left: $spacing-extra-large;
+      padding-right: $spacing-extra-large;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.mdc-button--light {
+  @include mdc-button-container-fill-color($mdc-theme-surface);
+  @include mdc-button-ink-color($mdc-theme-primary);
+}

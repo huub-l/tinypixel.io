@@ -1,0 +1,20 @@
+html,
+body {
+  background: $black;
+}
+
+section.section {
+  @extend .pt6;
+  @extend .pb2;
+  @extend .ph4;
+  @extend .bg-white;
+}
+
+.wordpress-main {
+  @extend .bg-white;
+}
+
+.main {
+  @extend .bg-white;
+  @extend .pb6;
+}

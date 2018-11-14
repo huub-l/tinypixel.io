@@ -1,0 +1,217 @@
+.wordpress-main > * {
+  @include sm() {
+    margin: 32px calc(1.1 * (100vw / 12));
+    max-width: calc(100vw - $grid-margin);
+  }
+
+  @include md {
+    margin: 32px calc(1.5 * (100vw / 12));
+    max-width: calc(100vw - (4 * $grid-margin));
+  }
+
+  @include lg {
+    margin: 32px calc(2 * (100vw / 12));
+    max-width: calc(100vw - (4 * $grid-margin));
+  }
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  &.alignwide {
+    margin-left: calc(1 * (100vw / 12));
+    margin-right: calc(1 * (100vw / 12));
+    max-width: calc(10 * (100vw / 12));
+  }
+
+  &.alignfull {
+    margin-top: calc(2 * $grid-margin);
+    margin-right: 0;
+    margin-bottom: calc(2 * $grid-margin);
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  &.alignleft {
+    float: left;
+    max-width: calc(5 * (100vw / 12));
+    margin-top: 0;
+
+    @include medium() {
+      max-width: calc(4 * (100vw / 12));
+      margin-right: calc(2 * $grid-margin);
+    }
+
+    @include large() {
+      max-width: calc(2 * (100vw / 12));
+    }
+  }
+
+  &.alignright {
+    float: right;
+    max-width: calc(5 * (100vw / 12));
+    margin-top: 0;
+    margin-left: $grid-margin;
+    margin-right: $grid-margin;
+
+    @include medium() {
+      max-width: calc(4 * (100vw / 12));
+      margin-left: calc(2 * $grid-margin);
+      margin-right: calc(2 * (100vw / 12));
+    }
+
+    @include large() {
+      max-width: calc(4 * (100vw / 12));
+      margin-left: calc(2 * $grid-margin);
+      margin-right: calc(2 * (100vw / 12));
+    }
+  }
+
+  .squiggle {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .squiggle::before,
+  .squiggle::after {
+    position: absolute;
+    font-family: monospace;
+    font-size: 19px;
+    color: inherit;
+    letter-spacing: 1px;
+    bottom: 0;
+    left: 0;
+    transition: none;
+    word-break: break-all;
+    white-space: nowrap;
+  }
+
+  .squiggle::before {
+    transition: left 7s linear;
+    content: "\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004\032E\2004"
+  }
+
+  .squiggle::after {
+    transition: left 7s linear;
+    content: "\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004\032F\2004";
+    left: 6px;
+    bottom: 1px;
+  }
+
+  .squiggle:hover::after {
+    left: -100px;
+    transition: left 7s linear;
+  }
+
+  .squiggle:hover::before {
+    left: -106px;
+    transition: left 7s linear;
+  }
+
+  a {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+
+    &::after {
+      background:
+        linear-gradient(
+          to bottom,
+          $mdc-theme-primary,
+          $mdc-theme-accent
+        ) center 1.08em / 100% 2px no-repeat;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 400%;
+      will-change: transform;
+      z-index: -1;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+      animation: underline-gradient 6s linear infinite;
+      transition: all 0.3s ease-in-out;
+      color: $white;
+      background-image:
+        linear-gradient(
+          90deg,
+          $mdc-theme-primary 15%,
+          $mdc-theme-accent 55%,
+          $mdc-theme-primary 85%
+        );
+    }
+  }
+
+  @keyframes underline-gradient {
+    0% {
+      transform: translate3d(0%, 0%, 0);
+    }
+
+    100% {
+      transform: translate3d(-75%, 0%, 0);
+    }
+  }
+}
+
+blockquote {
+  background: transparent;
+  margin: 0 0 $grid-margin;
+  font-style: italic;
+  padding: 0;
+
+  cite {
+    display: block;
+    font-size: 18px;
+    margin-top: 17px;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.is-large.wp-block-quote {
+    margin: 0 0 $grid-margin;
+    padding: 0;
+
+    cite {
+      text-align: center;
+    }
+  }
+
+  &.wp-block-pullquote {
+    border-top: 2px solid $mdc-theme-surface;
+    border-bottom: 2px solid $mdc-theme-surface;
+    padding: $grid-margin 0;
+  }
+}
+
+.wp-block-button {
+  margin-bottom: $grid-margin;
+  text-align: center;
+
+  .wp-block-button__link {
+    @extend .ripple;
+
+    &::after,
+    &::before {
+      overflow: hidden;
+      content: '';
+    }
+
+    @extend .mdc-button;
+    @extend .mdc-button--raised;
+  }
+}

@@ -1,0 +1,54 @@
+#can_embed_form {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#can_embed_form #logo_wrap {
+  display: none !important;
+}
+
+#can_embed_form_inner {
+  h2 {
+    display: none !important;
+  }
+
+  h4 {
+    display: none !important;
+  }
+}
+
+#can_embed_form .entry-title {
+  display: none;
+}
+
+#can_embed_form .action_description {
+  display: none;
+}
+
+#can_embed_form #action_info_inner,
+#can_embed_form .action_sidebar h4,
+#can_embed_form h2.line {
+  display: none;
+}
+
+.can_embed_form #can_embed_form_inner > h2,
+.can_embed_form #can_embed_form_inner > h4 {
+  display: none;
+}
+
+#can_embed_form #action_info {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+#can_embed_form #form_col1,
+#can_embed_form #form_col2 {
+  width: 100% !important;
+  float: left !important;
+}
+
+.can_embed #donation_recipient_wrap {
+  display: none !important;
+}
