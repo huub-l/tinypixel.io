@@ -1,17 +1,17 @@
 .wordpress-main > * {
   @include sm() {
     margin: 32px calc(1.1 * (100vw / 12));
-    max-width: calc(100vw - $grid-margin);
+    max-width: calc(100% - 2rem);
   }
 
   @include md {
     margin: 32px calc(1.5 * (100vw / 12));
-    max-width: calc(100vw - (4 * $grid-margin));
+    max-width: calc(100% - (4 * 2rem));
   }
 
   @include lg {
     margin: 32px calc(2 * (100vw / 12));
-    max-width: calc(100vw - (4 * $grid-margin));
+    max-width: calc(100% - (4 * 2rem));
   }
 
   > *:first-child {
@@ -29,9 +29,9 @@
   }
 
   &.alignfull {
-    margin-top: calc(2 * $grid-margin);
+    margin-top: calc(2 * 2rem);
     margin-right: 0;
-    margin-bottom: calc(2 * $grid-margin);
+    margin-bottom: calc(2 * 2rem);
     margin-left: 0;
     max-width: 100%;
   }
@@ -43,7 +43,7 @@
 
     @include medium() {
       max-width: calc(4 * (100vw / 12));
-      margin-right: calc(2 * $grid-margin);
+      margin-right: calc(2 * 2rem);
     }
 
     @include large() {
@@ -55,18 +55,18 @@
     float: right;
     max-width: calc(5 * (100vw / 12));
     margin-top: 0;
-    margin-left: $grid-margin;
-    margin-right: $grid-margin;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
     @include medium() {
       max-width: calc(4 * (100vw / 12));
-      margin-left: calc(2 * $grid-margin);
+      margin-left: calc(2 * 2rem);
       margin-right: calc(2 * (100vw / 12));
     }
 
     @include large() {
       max-width: calc(4 * (100vw / 12));
-      margin-left: calc(2 * $grid-margin);
+      margin-left: calc(2 * 2rem);
       margin-right: calc(2 * (100vw / 12));
     }
   }
@@ -168,7 +168,7 @@
 
 blockquote {
   background: transparent;
-  margin: 0 0 $grid-margin;
+  margin: 0 0 2rem;
   font-style: italic;
   padding: 0;
 
@@ -183,7 +183,7 @@ blockquote {
   }
 
   &.is-large.wp-block-quote {
-    margin: 0 0 $grid-margin;
+    margin: 0 0 2rem;
     padding: 0;
 
     cite {
@@ -194,12 +194,12 @@ blockquote {
   &.wp-block-pullquote {
     border-top: 2px solid $mdc-theme-surface;
     border-bottom: 2px solid $mdc-theme-surface;
-    padding: $grid-margin 0;
+    padding: 2rem 0;
   }
 }
 
 .wp-block-button {
-  margin-bottom: $grid-margin;
+  margin-bottom: 2rem;
   text-align: center;
 
   .wp-block-button__link {

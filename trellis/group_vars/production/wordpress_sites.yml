@@ -19,9 +19,3 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: true
-    backup:
-      enabled: true
-      auto: true
-      target: s3+https://tiny-pixel-backups.sfo2.digitaloceanspaces.com/tinypixel-io/
-      schedule: '0 0 3 * * ?'
-      purge: true
