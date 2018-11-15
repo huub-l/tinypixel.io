@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Plainswalker;
-use App\Firewalker;
 use Sober\Controller\Controller;
 
 class App extends Controller

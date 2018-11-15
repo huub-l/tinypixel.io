@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70618684e13554c4d30038e59f356dd6",
+    "content-hash": "c225a906eb0d3663943106b67d2fd9aa",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -37,6 +37,21 @@
             ],
             "description": "Companion plugin to the WP-CLI Login Command to handle magic passwordless sign-in requests.",
             "time": "2017-04-16T20:08:30+00:00"
+        },
+        {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.7.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.7",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "philippbaschke/acf-pro-installer": "^1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "composer/installers",
@@ -335,6 +350,51 @@
             "time": "2018-11-09T20:10:38+00:00"
         },
         {
+            "name": "log1x/sage-password-protected",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Log1x/sage-password-protected.git",
+                "reference": "5b95047d1df01adc3c578ef00b6719579c17b580"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Log1x/sage-password-protected/zipball/5b95047d1df01adc3c578ef00b6719579c17b580",
+                "reference": "5b95047d1df01adc3c578ef00b6719579c17b580",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=7.0"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "src/PasswordProtected.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Nifong",
+                    "email": "brandon@tendency.me"
+                }
+            ],
+            "description": "A simple password protection package for Roots Sage customizable with filters.",
+            "homepage": "https://github.com/log1x/sage-password-protected",
+            "keywords": [
+                "blade",
+                "password",
+                "roots",
+                "sage",
+                "wordpress"
+            ],
+            "time": "2018-10-20T10:44:25+00:00"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -375,6 +435,62 @@
                 "env"
             ],
             "time": "2017-07-17T20:41:59+00:00"
+        },
+        {
+            "name": "philippbaschke/acf-pro-installer",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhilippBaschke/acf-pro-installer.git",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhilippBaschke/acf-pro-installer/zipball/f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "reference": "f18e537183958159ef5f6cb1f5b684f59d55f3eb",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.5",
+                "vlucas/phpdotenv": "^2.2"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*",
+                "phpunit/phpunit": "4.8.*",
+                "satooshi/php-coveralls": "1.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PhilippBaschke\\ACFProInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhilippBaschke\\ACFProInstaller\\": "src/ACFProInstaller"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Baschke",
+                    "email": "philipp@baschke.com"
+                }
+            ],
+            "description": "An install helper for Advanced Custom Fields PRO",
+            "keywords": [
+                "acf",
+                "composer",
+                "env",
+                "plugin",
+                "pro",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2016-07-20T10:19:36+00:00"
         },
         {
             "name": "roots/soil",
@@ -519,6 +635,53 @@
                 "wordpress wp bcrypt password"
             ],
             "time": "2016-03-01T16:27:06+00:00"
+        },
+        {
+            "name": "samrap/acf-fluent",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samrap/acf-fluent.git",
+                "reference": "55af7560a8c395088fa8e0cd424641bd20cdb8e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samrap/acf-fluent/zipball/55af7560a8c395088fa8e0cd424641bd20cdb8e0",
+                "reference": "55af7560a8c395088fa8e0cd424641bd20cdb8e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Samrap\\Acf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Rapaport",
+                    "email": "me@samrapdev.com"
+                }
+            ],
+            "description": "A fluent interface for the Advanced Custom Fields WordPress plugin",
+            "keywords": [
+                "acf",
+                "fluent",
+                "helper",
+                "interface",
+                "wordpress",
+                "wrapper"
+            ],
+            "time": "2018-02-01T21:44:09+00:00"
         },
         {
             "name": "solarissmoke/disable-comments-mu",
@@ -763,15 +926,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "3.6.2",
+            "version": "3.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/3.6.2"
+                "reference": "tags/3.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.3.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.3.6.3.zip",
                 "reference": null,
                 "shasum": null
             },

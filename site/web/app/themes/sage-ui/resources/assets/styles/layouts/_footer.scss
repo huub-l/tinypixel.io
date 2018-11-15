@@ -1,0 +1,15 @@
+footer.section {
+  background-color: $mdc-theme-accent;
+
+  .svg {
+    width: 300px;
+  }
+
+  .tag {
+    @extend .db, .f4, .fw3, .lh-solid, .tracked, .ttu;
+  }
+
+  .footer-copyright {
+    @extend .db, .f6, .f5-l, .white, .code;
+  }
+}

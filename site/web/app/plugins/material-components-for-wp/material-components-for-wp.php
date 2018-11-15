@@ -17,7 +17,7 @@ add_shortcode( 'mdc-menu', function ( $atts ) {
   $menu_name = get_term(get_nav_menu_locations()[$attributes['location']], 'nav_menu')->name;
 
   if($attributes['component'] == 'mdc_app_bar') {
-    $menu .= wp_nav_menu( array(
+    $menu = wp_nav_menu( array(
       'theme_location' => $attributes['location'],
       'menu_class'     => 'mdc-button ripple',
       'container'      => '',

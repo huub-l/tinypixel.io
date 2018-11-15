@@ -3,18 +3,17 @@ header {
 
   h1,
   h2 {
+    @extend .lh-title;
+
     color: $mdc-theme-surface;
   }
 
   h1 {
     @extend .f1;
-    @extend .lh-title;
   }
 
   h2 {
-    @extend .f4;
-    @extend .code;
-    @extend .lh-title;
+    @extend .f4, code;
   }
 
   h4 {
@@ -35,13 +34,18 @@ header {
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
 
-    @extend .pt7;
-    @extend .pb5;
-    @extend .ph4;
+    @extend .pt7, .pb5, .ph4;
 
     @include lg {
       padding-left: $spacing-extra-large;
       padding-right: $spacing-extra-large;
+    }
+
+    .logo-overlay {
+      position: absolute;
+      top: 48px;
+      right: 48px;
+      width: 120px;
     }
   }
 }
