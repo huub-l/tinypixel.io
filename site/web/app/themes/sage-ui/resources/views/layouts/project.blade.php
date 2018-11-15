@@ -6,7 +6,9 @@
     @include('partials.app-bar')
     <div class="mdc-top-app-bar--fixed-adjust">
       @include('partials.header-project')
-      @yield('content')
+      <main class="wordpress-main">
+        @yield('content')
+      </main>
       @php do_action('get_footer') @endphp
       @if(!is_front_page()) @include('partials.footer') @endif
       @php wp_footer() @endphp
