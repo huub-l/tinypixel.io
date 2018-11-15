@@ -20,7 +20,7 @@
         <a href="{!! $organization->twitter !!}" class="link mr3" title="{{ $organization->name }} on Twitter">
           @svg('twitter')
         </a><br /><br />
-        <p class="mdc-typography--body2">© {{ $organization->name }}, LLC {{ date('Y') }}</p>
+        <p class="mdc-typography--body2">© {{ $organization->name }} {{ date('Y') }}</p>
       </div>
     </nav>
   </div>
