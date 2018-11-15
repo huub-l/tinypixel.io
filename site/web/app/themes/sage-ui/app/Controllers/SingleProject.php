@@ -15,11 +15,13 @@ class SingleProject extends Controller
       $types[] = $term->name;
       $types = array_reverse($types);
     }
+
     $project = (object) array(
       'name' => get_the_title($post->ID),
       'type' => join(' ', $types),
       'repository' => get_field('repository'),
     );
+    
     return $project;
   }
 }

@@ -3,14 +3,18 @@
   @include('partials.head')
   <body data-sticky-container @php body_class() @endphp>
     @php do_action('get_header') @endphp
-    @include('partials.app-bar')
+    @include('partials.app-bar', array( 'organization' => $organization))
+    
     <div class="mdc-top-app-bar--fixed-adjust">
       @if(!is_front_page())
         @include('partials.header')
-        <main class="wordpress-main">@yield('content')</main>
+        <main class="wordpress-main">
+          @yield('content')
+        </main>
       @else
         @yield('content')
       @endif
+      
       @php do_action('get_footer') @endphp
       @if(!is_front_page()) @include('partials.footer') @endif
       @php wp_footer() @endphp

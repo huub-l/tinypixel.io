@@ -30,4 +30,27 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+    public function site()
+    {
+      $site = (object) array();
+      return $site;
+    }
+
+    public function organization()
+    {
+      $organization = (object) array(
+        'name' => get_field('org_name','options'),
+        'email' => get_field('org_email','options'),
+        'street' => get_field('org_street_address','options'),
+        'city' => get_field('org_city','options'),
+        'state' => get_field('org_state','options'),
+        'phone' => get_field('org_phone','options'),
+        'postal_code' => get_field('org_postal_code','options'),
+        'twitter' => get_field('org_twitter','options'),
+        'facebook' => get_field('org_facebook','options'),
+      );
+    
+      return $organization;
+    }
 }

@@ -173,4 +173,18 @@ add_action('after_setup_theme', function () {
     sage('blade')->compiler()->directive('shortcode', function ($shortcode) {
         return '<?= do_shortcode(\''. $shortcode .'\'); ?>';
     });
+  
+    acf_add_options_page(array(
+      'page_title' 	=> 'Theme General Settings',
+      'menu_title'	=> 'Theme Settings',
+      'menu_slug' 	=> 'theme-general-settings',
+      'redirect'		=> false
+    ));
+    
+    acf_add_options_page(array(
+      'page_title' 	=> 'Organization Settings',
+      'menu_title'	=> 'Organization Settings',
+      'menu_slug' 	=> 'organization-settings',
+      'redirect'		=> false
+	  ));
 });

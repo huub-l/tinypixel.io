@@ -11,15 +11,16 @@
       @shortcode('[mdc-menu location="mdc_drawer_navigation_b" component="mdc_drawer"]')
       <div class="mdc-drawer__header">
         <p class="mdc-typography--body2">
-        <br /><br />P.O. Box 9876<br />Olympia, W.A. 98765<br />
-        <a class="black-80 no-underline" title="Call Tiny Pixel" href="tel:+16466230989">+1 929-430-4988</a><br /><br /></p>
-        <a href="https://www.facebook.com/pixeldevs/" class="link mr3" title="Tiny Pixel on Facebook">
+        <br /><br />
+        <span class="ttu">{{ $organization->email }}</span><br />
+        <a class="black-80 no-underline" title="Call {{ $organization->name }}" href="tel:+1 {{$organization->phone}}">+1 {{ $organization->phone }}</a><br /><br /></p>
+        <a href="{!! $organization->facebook !!}" class="link mr3" title="{{ $organization->name }} on Facebook">
           @svg('facebook')
         </a>
-        <a href="https://twitter.com/VetsAboutFace" class="link mr3" title="About Face on Twitter">
+        <a href="{!! $organization->twitter !!}" class="link mr3" title="{{ $organization->name }} on Twitter">
           @svg('twitter')
         </a><br /><br />
-        <p class="mdc-typography--body2">© Tiny Pixel Collective, LLC {{ date('Y') }}</p>
+        <p class="mdc-typography--body2">© {{ $organization->name }}, LLC {{ date('Y') }}</p>
       </div>
     </nav>
   </div>
