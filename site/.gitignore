@@ -14,7 +14,7 @@ web/.htaccess
 !web/app/plugins/wp-simple-pay-pro-3
 !web/app/plugins/material-components-for-wp
 !web/app/plugins/tiny-pixel-svg
-!web/app/plugins/tinypixel-cpt
+!web/app/plugins/tiny-pixel-cpt
 
 # Dotenv
 .env
