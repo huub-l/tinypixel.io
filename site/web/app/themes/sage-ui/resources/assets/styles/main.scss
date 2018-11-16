@@ -39,10 +39,13 @@
 /* tachyons */
 @import "~tachyons-sass/tachyons";
 
+/* fullpage.js */
+@import "~fullpage.js/dist/fullpage.css";
+
 /* anime */
 @import "animation/ripple";
 @import "animation/focus";
-@import "~fullpage.js/dist/fullpage.css";
+@import "animation/rotate";
 
 /* atoms */
 @import "common/typography";

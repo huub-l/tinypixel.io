@@ -3,9 +3,9 @@
     <div class="logo-overlay">
       @svg('logo-circle')
     </div>
-    <h1>{{ get_the_title() }}</h1>
+    <h1 class="rellax" data-rellax-speed="-2">{{ get_the_title() }}</h1>
     @if(get_the_excerpt())
-      <h2>{{ get_the_excerpt() }}</h2>
+      <h2 class="rellax" data-rellax-speed="-3">{{ get_the_excerpt() }}</h2>
     @endif
     </h1>
   </div>

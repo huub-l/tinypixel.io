@@ -109,6 +109,9 @@
     "jquery": "^3.3.1",
     "material-components-web": "^0.41.0",
     "normalize.css": "^8.0.0",
+    "particle.js": "^1.0.7",
+    "particlesjs": "^2.2.3",
+    "rellax": "^1.7.1",
     "stimulus": "^1.1.0",
     "tachyons-sass": "^4.9.3",
     "turbolinks": "^5.2.0"
