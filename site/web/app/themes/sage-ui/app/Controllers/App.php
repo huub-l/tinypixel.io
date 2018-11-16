@@ -53,13 +53,4 @@ class App extends Controller
     
       return $organization;
     }
-
-    public function followers() {
-      $facebook = new \TPC\Social\Facebook;
-      $follow_count = (object) array(
-        'facebook' => $facebook->get_follow_count(),
-      );
-  
-      return $follow_count;
-    }
 }
