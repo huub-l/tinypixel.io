@@ -17,8 +17,8 @@
     <div class="slide">
       <div class="mdc-layout-grid pa6-l pt5-l">
         <div class="mdc-layout-grid__inner">
-          <div class="mdc-layout-grid__cell--span-2"></div>
-          <div class="mdc-layout-grid__cell--span-8">
+          <div class="mdc-layout-grid__cell--span-3"></div>
+          <div class="mdc-layout-grid__cell--span-6">
             <div class="mdc-card">
               <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url(@asset('images/nfm.png'))">
                 <a href="#"><div class="mdc-card__media-content ripple mdc-button h-100"><div class="h-100 mdc-ripple-surface db"></div></div></a>
@@ -31,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="mdc-layout-grid__cell--span-2"></div>
+          <div class="mdc-layout-grid__cell--span-3"></div>
         </div>
       </div>
     </div>

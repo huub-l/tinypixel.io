@@ -70,6 +70,7 @@
     "tiny-pixel/wp-performant-media": ">=1.0.1",
     "tiny-pixel/posttypes": "@dev",
     "johnbillion/extended-cpts": "^4.2",
+    "wpackagist-plugin/advanced-gutenberg-blocks": ">=1.4",
     "wpackagist-plugin/rewrite-testing": ">=0.1",
     "wpackagist-plugin/cdn-enabler": ">=1",
     "wpackagist-plugin/coblocks": ">=1",
