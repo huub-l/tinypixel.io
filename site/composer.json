@@ -72,6 +72,8 @@
     "johnbillion/extended-cpts": "^4.2",
     "wpackagist-plugin/rewrite-testing": ">=0.1",
     "wpackagist-plugin/cdn-enabler": ">=1",
+    "wpackagist-plugin/coblocks": ">=1",
+    "wpackagist-plugin/block-gallery": ">=1",
     "wpackagist-plugin/autodescription": ">=3",
     "wpackagist-plugin/duplicate-post": ">=3",
     "wpackagist-plugin/dropit": ">=1",

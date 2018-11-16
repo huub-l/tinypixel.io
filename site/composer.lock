@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cee2365090d1a5c82e3ca7927e4ca8c",
+    "content-hash": "3f3da1a79664a84c5acf8f784df29d1f",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -907,6 +907,26 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
+            "name": "wpackagist-plugin/block-gallery",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/block-gallery/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1542327370",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/block-gallery/"
+        },
+        {
             "name": "wpackagist-plugin/cdn-enabler",
             "version": "1.0.8",
             "source": {
@@ -925,6 +945,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cdn-enabler/"
+        },
+        {
+            "name": "wpackagist-plugin/coblocks",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coblocks/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coblocks.zip?timestamp=1542327666",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coblocks/"
         },
         {
             "name": "wpackagist-plugin/dropit",
@@ -968,15 +1008,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "4.3.0",
+            "version": "4.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/4.3.0"
+                "reference": "tags/4.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.3.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1128,15 +1168,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-html-mail",
-            "version": "2.8.3",
+            "version": "2.8.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-html-mail/",
-                "reference": "tags/2.8.3"
+                "reference": "tags/2.8.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-html-mail.2.8.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-html-mail.2.8.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1154,12 +1194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "74a42b8d8d9f9cd672be58e7d1c65094da4ae971"
+                "reference": "fd696a6dc1b30ec46ec4ca16831ca24ef22bb970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/74a42b8d8d9f9cd672be58e7d1c65094da4ae971",
-                "reference": "74a42b8d8d9f9cd672be58e7d1c65094da4ae971",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fd696a6dc1b30ec46ec4ca16831ca24ef22bb970",
+                "reference": "fd696a6dc1b30ec46ec4ca16831ca24ef22bb970",
                 "shasum": ""
             },
             "conflict": {
@@ -1233,7 +1273,7 @@
                 "pagarme/pagarme-php": ">=0,<3",
                 "paragonie/random_compat": "<2",
                 "paypal/merchant-sdk-php": "<3.12",
-                "phpmailer/phpmailer": ">=5,<5.2.24",
+                "phpmailer/phpmailer": ">=5,<5.2.27|>=6,<6.0.6",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
@@ -1285,7 +1325,7 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -1342,7 +1382,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-11-01T18:39:28+00:00"
+            "time": "2018-11-16T03:31:38+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
