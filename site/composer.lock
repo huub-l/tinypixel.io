@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2390d823253acfc10dc7e745068d8d81",
+    "content-hash": "48f5d64342eb197fc3201a48cde05c50",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -767,6 +767,39 @@
             "time": "2017-07-08T04:22:16+00:00"
         },
         {
+            "name": "tiny-pixel/corporate-communion",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixelcollective/corporate-communion.git",
+                "reference": "8171bf11aca10e901484e05b1f7e6afabcb8861f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pixelcollective/corporate-communion/zipball/8171bf11aca10e901484e05b1f7e6afabcb8861f",
+                "reference": "8171bf11aca10e901484e05b1f7e6afabcb8861f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kelly Mears",
+                    "email": "developers@tinypixel.io",
+                    "homepage": "https://tinypixel.io"
+                }
+            ],
+            "description": "Support for Drift and WeChat.",
+            "homepage": "https://github.com/pixelcollective/corporate-communion",
+            "support": {
+                "source": "https://github.com/pixelcollective/corporate-communion/tree/master",
+                "issues": "https://github.com/pixelcollective/corporate-communion/issues"
+            },
+            "time": "2018-11-17T05:49:35+00:00"
+        },
+        {
             "name": "tiny-pixel/posttypes",
             "version": "dev-master",
             "source": {
@@ -928,7 +961,7 @@
         },
         {
             "name": "wpackagist-plugin/block-gallery",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-gallery/",
@@ -936,7 +969,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1542327370",
+                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1542428848",
                 "reference": null,
                 "shasum": null
             },
@@ -1460,6 +1493,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "tiny-pixel/posttypes": 20,
+        "tiny-pixel/corporate-communion": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
