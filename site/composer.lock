@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eaf283a818be2532dcecce35e20ec4ed",
+    "content-hash": "d0618688bb0aa7974cda44efe305c34f",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -846,12 +846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pixelcollective/mad-reliable.git",
-                "reference": "0868aab36095805b3f378cc2a2d67065e2ca488a"
+                "reference": "99958168ec58bc1b598078eb40976a298a620e5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pixelcollective/mad-reliable/zipball/0868aab36095805b3f378cc2a2d67065e2ca488a",
-                "reference": "0868aab36095805b3f378cc2a2d67065e2ca488a",
+                "url": "https://api.github.com/repos/pixelcollective/mad-reliable/zipball/99958168ec58bc1b598078eb40976a298a620e5c",
+                "reference": "99958168ec58bc1b598078eb40976a298a620e5c",
                 "shasum": ""
             },
             "require": {
@@ -875,7 +875,7 @@
                 "uptime robot",
                 "wordpress"
             ],
-            "time": "2018-11-18T09:41:07+00:00"
+            "time": "2018-11-18T10:12:09+00:00"
         },
         {
             "name": "tiny-pixel/posttypes",
