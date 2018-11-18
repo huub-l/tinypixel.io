@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23c8fdb50b5572ccd69cfa80efaab809",
+    "content-hash": "eaf283a818be2532dcecce35e20ec4ed",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -434,16 +434,16 @@
         },
         {
             "name": "log1x/sage-password-protected",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Log1x/sage-password-protected.git",
-                "reference": "5b95047d1df01adc3c578ef00b6719579c17b580"
+                "reference": "509f44fa88641143e99f94010306a509951d68c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Log1x/sage-password-protected/zipball/5b95047d1df01adc3c578ef00b6719579c17b580",
-                "reference": "5b95047d1df01adc3c578ef00b6719579c17b580",
+                "url": "https://api.github.com/repos/Log1x/sage-password-protected/zipball/509f44fa88641143e99f94010306a509951d68c7",
+                "reference": "509f44fa88641143e99f94010306a509951d68c7",
                 "shasum": ""
             },
             "require": {
@@ -475,7 +475,7 @@
                 "sage",
                 "wordpress"
             ],
-            "time": "2018-10-20T10:44:25+00:00"
+            "time": "2018-11-18T07:49:27+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -839,6 +839,43 @@
                 "issues": "https://github.com/pixelcollective/corporate-communion/issues"
             },
             "time": "2018-11-17T05:49:35+00:00"
+        },
+        {
+            "name": "tiny-pixel/mad-reliable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixelcollective/mad-reliable.git",
+                "reference": "0868aab36095805b3f378cc2a2d67065e2ca488a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pixelcollective/mad-reliable/zipball/0868aab36095805b3f378cc2a2d67065e2ca488a",
+                "reference": "0868aab36095805b3f378cc2a2d67065e2ca488a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "TPC\\Uptime\\": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Gutenberg support for Uptime Robot.",
+            "homepage": "https://github.com/pixel-collective/mad-reliable",
+            "keywords": [
+                "gutenberg",
+                "plugin",
+                "uptime robot",
+                "wordpress"
+            ],
+            "time": "2018-11-18T09:41:07+00:00"
         },
         {
             "name": "tiny-pixel/posttypes",
@@ -1672,6 +1709,7 @@
     "stability-flags": {
         "tiny-pixel/posttypes": 20,
         "tiny-pixel/corporate-communion": 20,
+        "tiny-pixel/mad-reliable": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

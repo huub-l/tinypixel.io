@@ -87,6 +87,7 @@
     "tiny-pixel/wp-performant-media": ">=1.0.1",
     "tiny-pixel/posttypes": "@dev",
     "tiny-pixel/corporate-communion": "@dev",
+    "tiny-pixel/mad-reliable": "@dev",
     "johnbillion/extended-cpts": "^4.2",
     "wpackagist-plugin/advanced-gutenberg-blocks": ">=1.4",
     "wpackagist-plugin/rewrite-testing": ">=0.1",
