@@ -1,6 +1,22 @@
 .wordpress-main {
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+  h2 {
+    @extend .f2;
+  }
+
+  h3 {
+    @extend .f3;
+  }
+
+  h4 {
+    @extend .f4;
+  }
+
+  h5 {
+    @extend .f5;
+  }
 }
 
 .wordpress-main > * {

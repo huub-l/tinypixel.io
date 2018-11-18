@@ -6,11 +6,15 @@
     @include('partials.app-bar', array( 'organization' => $organization))
     
     <div class="mdc-top-app-bar--fixed-adjust">
+
       @if(!is_front_page())
         @include('partials.header')
         <main class="wordpress-main">
-          @yield('content')
+          <div class="wordpress-main__content">
+            @yield('content')
+          </div>
         </main>
+
       @else
         @yield('content')
       @endif

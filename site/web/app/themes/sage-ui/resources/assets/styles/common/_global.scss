@@ -1,0 +1,11 @@
+body {
+  background: $mdc-theme-background;
+}
+
+main.wordpress-main {
+  background: $mdc-theme-background;
+
+  .wordpress-main__content {
+    background: $mdc-theme-background;
+  }
+}

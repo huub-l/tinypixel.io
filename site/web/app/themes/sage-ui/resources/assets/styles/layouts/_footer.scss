@@ -1,6 +1,13 @@
 footer.section {
   background-color: $mdc-theme-primary;
 
+  @extend .pt3, .pb3, .ph4;
+
+  @include lg {
+    padding-left: $spacing-extra-large;
+    padding-right: $spacing-extra-large;
+  }
+
   .svg {
     width: 300px;
   }
