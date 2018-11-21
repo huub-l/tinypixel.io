@@ -102,6 +102,7 @@
     "wpackagist-plugin/dropit": ">=1",
     "wpackagist-plugin/gutenberg": ">=4",
     "wpackagist-plugin/imagify": ">=1",
+    "wpackagist-plugin/kebo-code": ">=1",
     "wpackagist-plugin/powies-uptime-robot": ">=0.9.5",
     "wpackagist-plugin/redirection": ">=3",
     "wpackagist-plugin/simple-local-avatars": ">=2",
@@ -110,7 +111,12 @@
     "wpackagist-plugin/wp-dobby": ">=1",
     "wpackagist-plugin/wp-html-mail": ">=2",
     "aaemnnosttv/wp-cli-login-server": ">=1",
-    "solarissmoke/disable-comments-mu": "^1.2"
+    "solarissmoke/disable-comments-mu": "^1.2",
+    "wpackagist-plugin/login-designer": ">=1",
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.6",
+    "wpackagist-plugin/my-syntax-highlighter": "^2.36",
+    "wpackagist-plugin/wp-gistpen": "^1.1",
+    "wpackagist-plugin/stream": "^3.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

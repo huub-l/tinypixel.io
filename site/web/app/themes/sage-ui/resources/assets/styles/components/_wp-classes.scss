@@ -1,6 +1,23 @@
 .wordpress-main {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+
+  h1,
+  h2 {
+    margin-top: 4rem;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 2rem;
+  }
+
+  h1 {
+    @extend .f1;
+  }
 
   h2 {
     @extend .f2;
@@ -17,21 +34,25 @@
   h5 {
     @extend .f5;
   }
+
+  p {
+    line-height: 2rem;
+  }
 }
 
 .wordpress-main > * {
   @include sm() {
-    margin: 32px calc(1.1 * (100vw / 12));
+    margin: 64px calc(1.1 * (100vw / 12));
     max-width: calc(100% - 2rem);
   }
 
   @include md {
-    margin: 32px calc(1.5 * (100vw / 12));
+    margin: 64px calc(1.5 * (100vw / 12));
     max-width: calc(100% - (4 * 2rem));
   }
 
   @include lg {
-    margin: 32px calc(2 * (100vw / 12));
+    margin: 64px calc(2 * (100vw / 12));
     max-width: calc(100% - (4 * 2rem));
   }
 
@@ -46,6 +67,8 @@
   &.alignwide {
     margin-left: calc(1 * (100vw / 12));
     margin-right: calc(1 * (100vw / 12));
+    margin-bottom: calc(2 * 2rem);
+    margin-top: calc(2 * 2rem);
     max-width: calc(10 * (100vw / 12));
   }
 
@@ -60,7 +83,6 @@
   &.alignleft {
     float: left;
     max-width: calc(5 * (100vw / 12));
-    margin-top: 0;
 
     @include medium() {
       max-width: calc(4 * (100vw / 12));
@@ -75,7 +97,6 @@
   &.alignright {
     float: right;
     max-width: calc(5 * (100vw / 12));
-    margin-top: 0;
     margin-left: 2rem;
     margin-right: 2rem;
 
@@ -137,7 +158,7 @@
     transition: left 7s linear;
   }
 
-  a {
+  a:not(.mdc-button) {
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -189,7 +210,7 @@
 
 blockquote {
   background: transparent;
-  margin: 0 0 2rem;
+  margin: 2rem 0 0;
   font-style: italic;
   padding: 0;
 
@@ -204,7 +225,7 @@ blockquote {
   }
 
   &.is-large.wp-block-quote {
-    margin: 0 0 2rem;
+    margin: 2rem 0 0;
     padding: 0;
 
     cite {
@@ -220,7 +241,7 @@ blockquote {
 }
 
 .wp-block-button {
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   text-align: center;
 
   .wp-block-button__link {
@@ -235,4 +256,8 @@ blockquote {
     @extend .mdc-button;
     @extend .mdc-button--raised;
   }
+}
+
+.wp-block-tpc-mad-reliable {
+  margin-top: 2rem;
 }
