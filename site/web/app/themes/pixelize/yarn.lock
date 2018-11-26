@@ -661,11 +661,6 @@ autoprefixer@~8.2.0:
     postcss "^6.0.20"
     postcss-value-parser "^3.2.3"
 
-autosize@^3.0.20:
-  version "3.0.21"
-  resolved "https://registry.yarnpkg.com/autosize/-/autosize-3.0.21.tgz#f182f40d17757d978a139a4c9ca40c4c0e448603"
-  integrity sha1-8YL0DRd1fZeKE5pMnKQMTA5EhgM=
-
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -680,11 +675,6 @@ aws4@^1.2.1, aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
-
-axe-core@^3.0.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.1.2.tgz#ca0aff897ebefca7552f97859dc1217c06c4f9e6"
-  integrity sha512-e1WVs0SQu3tM29J9a/mISGvlo2kdCStE+yffIAJF6eb42FS+eUFEVz9j4rgDeV2TAfPJmuOZdRetWYycIbK7Vg==
 
 axios@0.17.1:
   version "0.17.1"
@@ -1161,13 +1151,6 @@ buble@^0.15.0:
     minimist "^1.2.0"
     os-homedir "^1.0.1"
 
-buefy@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.7.0.tgz#9c040bfa7ed7495de9ffc932434205249c8149b0"
-  integrity sha512-1SA7x6GimoJPYGJurNj7LfWdBl86zEd8g+ff6sm8yMkkDcn9P8UbAOIW7QRY3yR4V7Gde8ml7OZvvmgNQMGKbg==
-  dependencies:
-    bulma "0.7.1"
-
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
@@ -1243,11 +1226,6 @@ bulma-extensions@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-3.0.0.tgz#420527008f56d5219d0d9b4c743d311cbfecdf63"
   integrity sha512-RtxaZHKUvb5zcqrlpK924omOfmmqQh1JbNVqUOns2WEUetHnElreLH1/3Qr2hRmT2tSdzxvKIWk+Co2gLDOK4w==
-
-bulma@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
-  integrity sha512-wRSO2LXB+qI9Pyz2id+uZr4quz5aftSN7Ay1ysr1+krzVp3utD+Ci4CeKuZdrYGc800t65b7heXBL6qw2Wo/lQ==
 
 bulma@^0.7.2:
   version "0.7.2"
@@ -2522,13 +2500,6 @@ decompress@^4.0.0:
     make-dir "^1.0.0"
     pify "^2.3.0"
     strip-dirs "^2.0.0"
-
-deep-assign@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/deep-assign/-/deep-assign-2.0.0.tgz#ebe06b1f07f08dae597620e3dd1622f371a1c572"
-  integrity sha1-6+BrHwfwja5ZdiDj3RYi83GhxXI=
-  dependencies:
-    is-obj "^1.0.0"
 
 deep-eql@^3.0.1:
   version "3.0.1"
@@ -3939,11 +3910,6 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fuzzysearch@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fuzzysearch/-/fuzzysearch-1.0.3.tgz#dffc80f6d6b04223f2226aa79dd194231096d008"
-  integrity sha1-3/yA9tawQiPyImqnndGUIxCW0Ag=
-
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -4456,11 +4422,6 @@ he@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
-
-headroom.js@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.9.4.tgz#0c4e6b4563bb69df55aecdefaba3227566f2df5a"
-  integrity sha1-DE5rRWO7ad9Vrs3vq6MidWby31o=
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
@@ -5491,18 +5452,6 @@ jsx-ast-utils@^2.0.1:
   integrity sha1-6AGxs5mF4g//yHtA43SAgOLcrH8=
   dependencies:
     array-includes "^3.0.3"
-
-keen-ui@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/keen-ui/-/keen-ui-1.0.1.tgz#9f85bd82d3c9f258c95df8f5abba07d5cd9803bb"
-  integrity sha512-C4E4fGQk6V/WiqvSNgpQbnbRN48fi1eV3lMNjJLWlMuqlYl8wpboa0q8aq4Poxk/Ktd9q5jJyYtJFoa3bMJu7g==
-  dependencies:
-    autosize "^3.0.20"
-    deep-assign "^2.0.0"
-    fuzzysearch "^1.0.3"
-    lodash.debounce "^4.0.8"
-    tether-drop "^1.4.2"
-    tether-tooltip "^1.2.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -8032,13 +7981,6 @@ quick-lru@^1.0.0:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
   integrity sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
 
-raf@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
-  integrity sha512-pDP/NMRAXoTfrhCfyfSEwJAKLaxBU9eApMeBPB1TkDouZmvPerIClV8lTAd+uF8ZiTaVl69e1FCxQrAd/VTjGw==
-  dependencies:
-    performance-now "^2.1.0"
-
 ramda@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
@@ -8686,13 +8628,6 @@ schema-utils@^0.4.0, schema-utils@^0.4.2, schema-utils@^0.4.4, schema-utils@^0.4
   dependencies:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
-
-scroll-to-element@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/scroll-to-element/-/scroll-to-element-2.0.2.tgz#f4fc74f26482337a5b8f656552fda0f41644f0f6"
-  integrity sha512-RYfez9f/Ewo5mLV0g9/Zb1gb/EZ+8T9gZPBB2eV6AhkkE4HY6duVYjF1nBRXxoS2EyfEORjttQmg9buXsUHvRQ==
-  dependencies:
-    raf "^3.4.0"
 
 scrollbarwidth@^0.1.3:
   version "0.1.3"
@@ -9580,18 +9515,6 @@ table@^4.0.1:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-tachyons-custom@^4.9.2:
-  version "4.9.6"
-  resolved "https://registry.yarnpkg.com/tachyons-custom/-/tachyons-custom-4.9.6.tgz#02f3a28269e098566eaf63c09c5985d249bbbdf8"
-  integrity sha512-HsrN1C8GTj9Tr8Ki4XMZdd1ye2O8YLVUXNAJiga3DzcdY4pRuEMYcvjOk0wAGEdVgePPSAWAsE+CWNZzNagEJw==
-
-tachyons-sass@^4.9.3:
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/tachyons-sass/-/tachyons-sass-4.9.3.tgz#a411a6416f1dfa88efb16ba498ace108eefe4aa3"
-  integrity sha512-Cok8J0fGPx+v/12LizOma0tuRrd3EqIYqiUSTqkM/5HFy7sKmM1Gg3GU41XycWbrOGjNRc7S83cF+o4MhEInUQ==
-  dependencies:
-    tachyons-custom "^4.9.2"
-
 tapable@^0.2.7:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
@@ -9657,26 +9580,6 @@ tempfile@^2.0.0:
   dependencies:
     temp-dir "^1.0.0"
     uuid "^3.0.1"
-
-tether-drop@^1.4.0, tether-drop@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/tether-drop/-/tether-drop-1.4.2.tgz#28e240cce077f4ae1d8e5990a03b71e0cd6fbfec"
-  integrity sha1-KOJAzOB39K4djlmQoDtx4M1vv+w=
-  dependencies:
-    tether "^1.1.0"
-
-tether-tooltip@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/tether-tooltip/-/tether-tooltip-1.2.0.tgz#08f49764d5f448708b51119c9fe119972b4d6962"
-  integrity sha1-CPSXZNX0SHCLURGcn+EZlytNaWI=
-  dependencies:
-    tether "^1.1.0"
-    tether-drop "^1.4.0"
-
-tether@^1.1.0:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/tether/-/tether-1.4.5.tgz#8efd7b35572767ba502259ba9b1cc167fcf6f2c1"
-  integrity sha512-fysT1Gug2wbRi7a6waeu39yVDwiNtvwj5m9eRD+qZDSHKNghLo6KqP/U3yM2ap6TNUL2skjXGJaJJTJqoC31vw==
 
 text-table@~0.2.0:
   version "0.2.0"
@@ -10334,13 +10237,6 @@ vue-awesome@^3.1.3:
   resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-3.1.3.tgz#538badc9538d0cd8bb2e17b2cd6675e970dc3816"
   integrity sha512-JJXcU1l4Lo/kahhEvUSpKEgbL47pAUfXeAdj/ayVL6HClGbCCOhCHsup1PprTFlCjgZ8N42jDnYBRsBP5QxGGA==
 
-vue-axe@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/vue-axe/-/vue-axe-1.0.7.tgz#47ad7c5aea4d7d762bf0891fe8e16bf24063405a"
-  integrity sha512-/o1m3cH9StOi9gBGSGI5EyApY24PIN1vzC8FxRDT5QXErSWbxUunVWQuhU65kqvmAsOJcDg5iW6KXoJEbf/x4Q==
-  dependencies:
-    axe-core "^3.0.2"
-
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -10415,16 +10311,6 @@ vue@^2.3.3, vue@^2.5.17:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
   integrity sha512-mFbcWoDIJi0w0Za4emyLiW72Jae0yjANHbCVquMKijcavBGypqlF7zHRgMa5k4sesdv7hv2rB4JPdZfR+TPfhQ==
-
-vuex-localstorage@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vuex-localstorage/-/vuex-localstorage-1.0.0.tgz#3d680e9f6feee26d1a72a9c84ebd9daa64a06536"
-  integrity sha1-PWgOn2/u4m0acqnITr2dqmSgZTY=
-
-vuex@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
-  integrity sha512-wLoqz0B7DSZtgbWL1ShIBBCjv22GV5U+vcBFox658g6V0s4wZV9P4YjCNyoHSyIBpj1f29JBoNQIqD82cR4O3w==
 
 ware@^1.2.0:
   version "1.3.0"
