@@ -2,7 +2,7 @@
   command: yarn
   connection: local
   args:
-    chdir: "{{ project_local_path }}/web/app/themes/pixelize"
+    chdir: "{{ project_local_path }}/web/app/themes/sage-ui"
 
 - name: Install Composer dependencies
   command: composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader --no-scripts
