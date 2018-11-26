@@ -54,6 +54,22 @@
       }
     },
     {
+      "type": "composer",
+      "url": "https://packages.tinypixel.io/satispress/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/cedaro/satispress"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-graphql/wp-graphql"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-graphql/wp-graphiql"
+    },
+    {
       "type": "vcs",
       "url": "https://github.com/pixelcollective/posttypes"
     },
@@ -64,14 +80,6 @@
     {
       "type": "vcs",
       "url": "https://github.com/pixelcollective/corporate-communion"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/wp-graphql/wp-graphql"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/wp-graphql/wp-graphiql"
     }
   ],
   "require": {
@@ -83,16 +91,33 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
     "roots/soil": "^3.7",
+    "roots/wp-stage-switcher": "^2.0",
+    "cedaro/satispress": ">=0.3.0",
+    "johnbillion/extended-cpts": "^4.2",
+    "primetime/wp-plugin-activation-manifest": "^1.0",
     "advanced-custom-fields/advanced-custom-fields-pro": ">=5.7",
     "samrap/acf-fluent": "^0.4.0",
     "log1x/sage-password-protected": "^1.0",
     "wp-graphql/wp-graphql": "^0.1.1",
     "wp-graphql/wp-graphiql": "^0.3.0",
+    "wpackagist-plugin/wp-term-order": "^0.1.4",
+    "wpackagist-plugin/wp-user-profiles": "^2.1",
+    "solarissmoke/disable-comments-mu": "^1.2",
+    "wpackagist-plugin/dark-mode": "^3.1",
     "tiny-pixel/wp-performant-media": ">=1.0.1",
     "tiny-pixel/posttypes": "@dev",
     "tiny-pixel/corporate-communion": "@dev",
     "tiny-pixel/mad-reliable": "@dev",
-    "johnbillion/extended-cpts": "^4.2",
+    "tiny-packagist/wp-simple-pay-pro-3": ">=3.2",
+    "tiny-packagist/wp-migrate-db-pro": ">=1.8",
+    "tiny-packagist/wp-migrate-db-pro-cli": ">=1.3",
+    "tiny-packagist/wp-migrate-db-pro-media-files": ">=1.4",
+    "tiny-packagist/meta-tags-wp": ">=0.2",
+    "tiny-packagist/edd-all-access": ">=1.0",
+    "tiny-packagist/edd-recurring": ">=2.7",
+    "tiny-packagist/edd-wallet": ">=1.1",
+    "tiny-packagist/edd-amazon-s3": ">=2.3",
+    "tiny-packagist/edd-discounts-pro": ">=1.4",
     "wpackagist-plugin/advanced-gutenberg-blocks": ">=1.4",
     "wpackagist-plugin/rewrite-testing": ">=0.1",
     "wpackagist-plugin/cdn-enabler": ">=1",
@@ -100,6 +125,7 @@
     "wpackagist-plugin/block-gallery": ">=1",
     "wpackagist-plugin/autodescription": ">=3",
     "wpackagist-plugin/dropit": ">=1",
+    "wpackagist-plugin/easy-digital-downloads": ">2",
     "wpackagist-plugin/gutenberg": ">=4",
     "wpackagist-plugin/imagify": ">=1",
     "wpackagist-plugin/kebo-code": ">=1",
@@ -111,12 +137,11 @@
     "wpackagist-plugin/wp-dobby": ">=1",
     "wpackagist-plugin/wp-html-mail": ">=2",
     "aaemnnosttv/wp-cli-login-server": ">=1",
-    "solarissmoke/disable-comments-mu": "^1.2",
     "wpackagist-plugin/login-designer": ">=1",
     "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.6",
-    "wpackagist-plugin/my-syntax-highlighter": "^2.36",
     "wpackagist-plugin/wp-gistpen": "^1.1",
-    "wpackagist-plugin/stream": "^3.2"
+    "wpackagist-plugin/stream": "^3.2",
+    "wpackagist-plugin/breadcrumb-navxt": "^6.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

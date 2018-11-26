@@ -13,13 +13,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: false
-    backup:
-      enabled: true
-      auto: false
-      target: https://tiny-pixel-backups.sfo2.digitaloceanspaces.com/tinypixel-io
-      schedule: '0 0 3 * * ?'
-      purge: true
