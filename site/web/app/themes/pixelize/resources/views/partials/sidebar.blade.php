@@ -1,1 +1,1 @@
-@php dynamic_sidebar($sidebar) @endphp
+@svg('logo-circle')

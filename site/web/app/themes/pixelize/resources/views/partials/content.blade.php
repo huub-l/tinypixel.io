@@ -15,7 +15,7 @@
       </div>
     @endif
     <div class="card-action">
-      <a href="{!! get_the_permalink(get_the_id()) !!}">Read more</a>
+      <a class="btn btn-flat btn-grey waves-effect waves-light href="{!! get_the_permalink(get_the_id()) !!}">Read more</a>
     </div>
   </div>
 </article>

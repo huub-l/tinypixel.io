@@ -1,3 +1,3 @@
-<div class="header type-post">
+<header class="header type-archive">
   <h1>{!! App::title() !!}</h1>
-</div>
+</header>

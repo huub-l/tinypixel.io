@@ -14,7 +14,7 @@
     <div class="container">
       <div class="row">
         <div class="copy col s12 m12 l5">
-          <h2>Services</h2>
+          <h2 class="small">Services</h2>
           <h3><i class="fa-wordpress fa fab wordpress"></i> WordPress Development</h3>
           <p>We <em>love</em> WordPress, the most popular content management system on the planet. We specifically work with the Roots.io platform, a fast and scalable WordPress architecture utilizing modern PHP and JS tools.</p>
           <a href="#javascript" class="btn waves-effect waves-light z-4">Continue <i class="material-icons right">chevron_right</i></a>
@@ -40,11 +40,11 @@
     <div class="container">
       <div class="row">
         <div class="copy col s12 m12 l5">
-          <h2>Services</h2>
-          <h3><i class="fa-js fa fab"></i> __Single Page Applications</h3>
-          <p>We've done more than a few lithe, single-page JavaScript applications for coalitions. Some small, and some helmed by orgs like Greenpeace US,
-            The Other 98% and Stand.Earth. All total, we've gathered millions of signatures, pledges and donations by leveraging
-            tools like Action Network, Revere Mobile, Stripe, and Mapbox 💪🏾</p>
+          <h2 class="small">Services</h2>
+          <h3><i class="fa-js fa fab"></i> Single Page Applications</h3>
+          <p>We've proven experts when it comes to building coalition joint petition landing pages, crowdfunding campaigns and other interactives. We've worked with the likes of Greenpeace,
+            Other98 and Stand.Earth, generating millions of actions &amp; donations. Powered by ES6 + and services like
+            Stripe &amp; Mapbox 💪🏾</p>
           <a href="#launch" class="btn waves-effect waves-light z-4">Continue<i class="material-icons right">chevron_right</i></a>
         </div>
         <div class="col s12 m12 l7 hide-on-small-only">
@@ -67,7 +67,7 @@
     <div class="container">
       <div class="row">
         <div class="copy col s12 m8 l4">
-          <h3>Let's make it happen!</h3>
+          <h2>Let's make it happen!</h2>
           <p>To get started send a text to <a href="tel:3603862633">360&middot;386&middot;CODE (2633)</a>. Or, keep it traditional: <a href="mailto:hello@tinypixel.io">hello@tinypixel.io</a>. We can't wait to hear what you've got planned 👩🏼‍💻✨</a>
         </div>
       </div>

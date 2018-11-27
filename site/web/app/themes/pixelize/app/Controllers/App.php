@@ -12,34 +12,6 @@ class App extends Controller
         return get_bloginfo('name');
     }
 
-    private static function doBulmaNav()
-    {
-      return wp_nav_menu( array(
-        'theme_location'    => 'primary_navigation',
-        'items_wrap'        => '%3$s',
-        'depth'             => 1,
-        'before'            => false,
-        'after'             => false,
-        'walker'            => new Walker())
-      );
-    }
-
-    public static function primaryNav()
-    {
-      if(class_exists('\Pixl\Bulma\Walker')) :
-        App::doBulmaNav();
-      else :
-        return wp_nav_menu( array(
-          'theme_location'    => 'primary_navigation',
-          'depth'             => 2,
-          'container'         => false,
-          'menu_class'        => 'navbar-menu',
-          'menu_id'           => 'primary-menu',
-          'after'             => "</div>"
-        ));
-      endif;
-    }
-
     public static function title()
     {
         if (is_home()) {
@@ -64,5 +36,64 @@ class App extends Controller
     {
         if(is_single()) return get_the_excerpt();
         else return null;
+    }
+
+    public static function get_recent_posts()
+    {
+        // Posts @object @array
+        $queried_posts = array();
+
+        // Query Arguments
+        $args = array(
+            'ignore_sticky_posts' => true,
+            'order' => 'DESC',
+            'posts_per_page' => 3,
+        );
+
+        // The Query
+        $recent_posts = get_posts( $args );
+
+        // Return $post Obj From $recent_posts array
+        return array_map(function($post) {
+            return [
+                'title' => get_the_title($post->ID),
+                'permalink' => get_the_permalink($post->ID),
+                'excerpt' => get_the_excerpt($post->ID),
+                'thumbnail' => get_the_post_thumbnail($post->ID),
+                'categories' => get_the_category($post->ID)
+            ];
+        }, $recent_posts);
+
+        /* Restore original Post Data */
+        wp_reset_postdata();
+    }
+
+    public static function doBulmaNav()
+    {
+        return wp_nav_menu( array(
+            'theme_location'    => 'primary_navigation',
+            'items_wrap'        => '%3$s',
+            'depth'             => 1,
+            'before'            => false,
+            'after'             => false,
+            'walker'            => new Walker())
+        );
+    }
+
+
+    public static function primaryNav()
+    {
+        if(class_exists('\Pixl\Bulma\Walker')) :
+            App::doBulmaNav();
+        else :
+            return wp_nav_menu( array(
+                'theme_location'    => 'primary_navigation',
+                'depth'             => 2,
+                'container'         => false,
+                'menu_class'        => 'navbar-menu',
+                'menu_id'           => 'primary-menu',
+                'after'             => "</div>"
+            ));
+        endif;
     }
 }

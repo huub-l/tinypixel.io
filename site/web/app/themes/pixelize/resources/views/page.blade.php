@@ -4,15 +4,23 @@
   @include('components.nav')
 @endsection
 
+@if(have_posts())
+  @while(have_posts()) @php the_post() @endphp
+
 @section('header')
   @include('partials.header-page')
 @endsection
 
 @section('content')
-  @while(have_posts()) @php the_post() @endphp
     @include('partials.content-single-page')
-  @endwhile
 @endsection
+
+@section('recent')
+  @include('components.post-list', array( 'posts' => App::get_recent_posts()))
+@endsection
+
+  @endwhile
+@endif
 
 @section('ancillary')
   @include('components.floating-action-button')

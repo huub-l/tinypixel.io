@@ -5,9 +5,15 @@
     @php do_action('get_header') @endphp
     @yield('navigation')
     <main id="app">
+
       @yield('header')
+      @yield('open-container')
       @yield('content')
+      @yield('sidebar')
+      @yield('recent')
       @yield('ancillary')
+      @yield('close-container')
+
     </main>
     @php do_action('get_footer') @endphp
     @yield('footer')
