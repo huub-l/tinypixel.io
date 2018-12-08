@@ -5,9 +5,7 @@
 wordpress_sites:
   tinypixel.io:
     site_hosts:
-      - canonical: tinypixel.pix
-        redirects:
-          - www.tinypixel.pix
+      - canonical: tinypixel.local
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: developers@tinypixel.io
     multisite:
