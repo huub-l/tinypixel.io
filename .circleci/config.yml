@@ -3,6 +3,12 @@
 ---
 version: 2
 jobs:
+  build:
+    docker:
+      - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
+    steps:
+      - checkout
+      - run: cd site/web/app/themes/pixelize && yarn && yarn build && yarn build:production
   deploy-staging:
     docker:
       - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
@@ -15,6 +21,8 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "5e:d5:c5:af:1b:ef:9e:72:67:5b:cf:f5:87:51:9f:da"
+      - restore_cache:
+          key: v1-ansible-galaxy-{{ checksum "trellis/requirements.yml" }}
       - run:
           name: Set Ansible Vault Pass
           command: echo $ANSIBLE_VAULT_PASSWORD > .vault_pass
@@ -55,11 +63,16 @@ workflows:
   version: 2
   tiller:
     jobs:
+      -build
       - deploy-staging:
+          requires:
+            - build
           filters:
             branches:
               only: development
       - deploy-production:
+          requires:
+            - build
           filters:
             branches:
               only: master
