@@ -5,7 +5,7 @@ version: 2
 jobs:
   deploy-staging:
     docker:
-      - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:latest
+      - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn
     environment:
       host_key_checking: false
       SITE_ENV: staging
