@@ -9,7 +9,7 @@
     ]
   },
   "publicPath": "/app/themes/pixelize",
-  "devUrl": "http://tinypixel.pix",
+  "devUrl": "http://tinypixel.local",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [

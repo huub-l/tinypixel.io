@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32a8eb2d134f16f52240e408c1d944b5",
+    "content-hash": "75cff1ead0c458d7cef58318e22e01eb",
     "packages": [
         {
             "name": "aaemnnosttv/wp-cli-login-server",
@@ -488,16 +488,16 @@
         },
         {
             "name": "johnbillion/extended-cpts",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/extended-cpts.git",
-                "reference": "7110de2b959d218709a7e993706d53867b1663ec"
+                "reference": "d64d9c977faf7d3c0d80b3289030b6d0632903fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/7110de2b959d218709a7e993706d53867b1663ec",
-                "reference": "7110de2b959d218709a7e993706d53867b1663ec",
+                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/d64d9c977faf7d3c0d80b3289030b6d0632903fd",
+                "reference": "d64d9c977faf7d3c0d80b3289030b6d0632903fd",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +532,7 @@
             ],
             "description": "A library which provides extended functionality to WordPress custom post types and taxonomies.",
             "homepage": "https://github.com/johnbillion/extended-cpts/",
-            "time": "2018-10-04T14:51:23+00:00"
+            "time": "2018-12-06T18:54:40+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1406,7 +1406,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -1584,13 +1584,33 @@
             "homepage": "https://wordpress.metatags.io/"
         },
         {
-            "name": "tiny-packagist/wp-migrate-db-pro",
-            "version": "1.8.6",
+            "name": "tiny-packagist/monarch",
+            "version": "1.4.8",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro/1.8.6",
+                "url": "https://packages.tinypixel.io/satispress/monarch/1.4.8",
                 "reference": null,
-                "shasum": "ddf4ae6426567c5814dcadc4c34397094ef60c3b"
+                "shasum": "d2e5f6f0b3b243fe5f01ed95c9f50c35a0210fd4"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Elegant Themes",
+                "homepage": "http://www.elegantthemes.com"
+            },
+            "description": "Social Media Plugin",
+            "homepage": "http://www.elegantthemes.com"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro/1.9.1",
+                "reference": null,
+                "shasum": "14fdb06109ad0df76312a08bd14333dcf23f091a"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1605,12 +1625,12 @@
         },
         {
             "name": "tiny-packagist/wp-migrate-db-pro-cli",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-cli/1.3.3",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-cli/1.3.4",
                 "reference": null,
-                "shasum": "5bfe65833531264220db2943e5cf74d4ad28499a"
+                "shasum": "307ea19e7e0e699f56d3add8ac0cbaac2ae72880"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1625,12 +1645,12 @@
         },
         {
             "name": "tiny-packagist/wp-migrate-db-pro-media-files",
-            "version": "1.4.10",
+            "version": "1.4.12",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-media-files/1.4.10",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-media-files/1.4.12",
                 "reference": null,
-                "shasum": "6418dcf4f7f80ab0e15b555c46e81160458101cc"
+                "shasum": "fcea9a4c99476745cf08cddcb27580de821d3d83"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1641,6 +1661,26 @@
                 "homepage": "https://deliciousbrains.com"
             },
             "description": "An extension to WP Migrate DB Pro, allows the migration of media files.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "tiny-packagist/wp-migrate-db-pro-multisite-tools",
+            "version": "1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.tinypixel.io/satispress/wp-migrate-db-pro-multisite-tools/1.2.3",
+                "reference": null,
+                "shasum": "1083c149dd054154d1b32aef7cab0f478f352a03"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Delicious Brains",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "An extension to WP Migrate DB Pro, supporting Multisite migrations.",
             "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
         },
         {
@@ -1992,15 +2032,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg-blocks",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg-blocks/",
-                "reference": "tags/1.4.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg-blocks.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg-blocks.zip?timestamp=1544089524",
                 "reference": null,
                 "shasum": null
             },
@@ -2012,7 +2052,7 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
@@ -2020,7 +2060,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1543949424",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1544095852",
                 "reference": null,
                 "shasum": null
             },
@@ -2032,7 +2072,7 @@
         },
         {
             "name": "wpackagist-plugin/block-gallery",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-gallery/",
@@ -2040,7 +2080,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1544047899",
+                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1544222710",
                 "reference": null,
                 "shasum": null
             },
@@ -2092,15 +2132,15 @@
         },
         {
             "name": "wpackagist-plugin/classic-editor",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/classic-editor/",
-                "reference": "tags/1.0"
+                "reference": "tags/1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2392,15 +2432,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/1.3.7"
+                "reference": "tags/1.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.1.3.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.1.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2412,15 +2452,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.15.5",
+            "version": "1.15.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.15.5"
+                "reference": "tags/1.15.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.15.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.15.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2558,12 +2598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "6acf968142215f1614f5909aa006b2bf1ec45cb1"
+                "reference": "9b4434eae4fea44b13828ebbcf3e04d07085b2b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6acf968142215f1614f5909aa006b2bf1ec45cb1",
-                "reference": "6acf968142215f1614f5909aa006b2bf1ec45cb1",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9b4434eae4fea44b13828ebbcf3e04d07085b2b0",
+                "reference": "9b4434eae4fea44b13828ebbcf3e04d07085b2b0",
                 "shasum": ""
             },
             "conflict": {
@@ -2672,7 +2712,7 @@
                 "sylius/admin-bundle": ">=1,<1.0.17|>=1.1,<1.1.9|>=1.2,<1.2.2",
                 "sylius/sylius": ">=1,<1.0.17|>=1.1,<1.1.9|>=1.2,<1.2.2",
                 "symfony/dependency-injection": ">=2,<2.0.17",
-                "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
+                "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.19|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
                 "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2",
                 "symfony/http-foundation": ">=2,<2.7.49|>=2.8,<2.8.44|>=3,<3.3.18|>=3.4,<3.4.14|>=4,<4.0.14|>=4.1,<4.1.3",
                 "symfony/http-kernel": ">=2,<2.3.29|>=2.4,<2.5.12|>=2.6,<2.6.8",
@@ -2680,21 +2720,21 @@
                 "symfony/polyfill": ">=1,<1.10",
                 "symfony/polyfill-php55": ">=1,<1.10",
                 "symfony/routing": ">=2,<2.0.19",
-                "symfony/security": ">=2,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
+                "symfony/security": ">=2,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.19|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
                 "symfony/security-bundle": ">=2,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
                 "symfony/security-core": ">=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8,<2.8.37|>=3,<3.3.17|>=3.4,<3.4.7|>=4,<4.0.7",
                 "symfony/security-csrf": ">=2.4,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
                 "symfony/security-guard": ">=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
-                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.48|>=2.8,<2.8.41|>=3,<3.3.17|>=3.4,<3.4.11|>=4,<4.0.11",
+                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.19|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
                 "symfony/serializer": ">=2,<2.0.11",
-                "symfony/symfony": ">=2,<2.7.49|>=2.8,<2.8.44|>=3,<3.3.18|>=3.4,<3.4.14|>=4,<4.0.14|>=4.1,<4.1.3",
+                "symfony/symfony": ">=2,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.19|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
                 "symfony/translation": ">=2,<2.0.17",
                 "symfony/validator": ">=2,<2.0.24|>=2.1,<2.1.12|>=2.2,<2.2.5|>=2.3,<2.3.3",
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -2751,7 +2791,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-11-27T12:50:30+00:00"
+            "time": "2018-12-08T09:18:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2808,8 +2848,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tiny-pixel/posttypes": 20,
         "tiny-pixel/corporate-communion": 20,
+        "tiny-pixel/posttypes": 20,
         "tiny-pixel/mad-reliable": 20,
         "roave/security-advisories": 20
     },
