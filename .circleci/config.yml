@@ -37,6 +37,9 @@ jobs:
       SITE_KEY: tinypixel.io
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "5e:d5:c5:af:1b:ef:9e:72:67:5b:cf:f5:87:51:9f:da"
       - restore_cache:
           key: v1-ansible-galaxy-{{ checksum "trellis/requirements.yml" }}
       - run:
@@ -50,7 +53,6 @@ jobs:
       - deploy:
           command: ansible-playbook deploy.yml -e env=$SITE_ENV -e site=$SITE_KEY -vvvv
           working_directory: trellis
-# TODO: Customize the workflow
 workflows:
   version: 2
   tiller:
