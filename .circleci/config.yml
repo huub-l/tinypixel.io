@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
     environment:
-      host_key_checking: false
+      ANSIBLE_HOST_KEY_CHECKING: false
       SITE_ENV: staging
       SITE_KEY: tinypixel.io
     steps:
