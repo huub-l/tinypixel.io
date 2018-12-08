@@ -63,7 +63,7 @@ workflows:
   version: 2
   tiller:
     jobs:
-      -build
+      - build
       - deploy-staging:
           requires:
             - build
