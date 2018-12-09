@@ -1,0 +1,17 @@
+shellcheck:
+  enabled: true
+
+scss:
+  enabled: true
+
+swift:
+  enabled: false
+
+go:
+  enabled: false
+
+haml:
+  enabled: false
+
+coffeelint:
+  enabled: false

@@ -1,9 +1,0 @@
-.home .footer {
-  @include small() {
-    margin-top: $spacing-extra-large;
-  }
-
-  @include medium() {
-    margin-top: $spacing-extra-large;
-  }
-}
