@@ -104,7 +104,6 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.4.1",
     "animatewithsass": "^3.2.1",
     "axios": "^0.18.0",
     "fullpage.js": "^3.0.3",
