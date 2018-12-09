@@ -1,1 +1,0 @@
-<time class="f6 ttu tracked gray code fw1">{!! $date or '' !!}</time>
