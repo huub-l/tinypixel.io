@@ -11,7 +11,6 @@
       @yield('content')
       @yield('sidebar')
       @yield('recent')
-      @yield('ancillary')
       @yield('close-container')
 
     </main>
