@@ -109,6 +109,7 @@
     "fullpage.js": "^3.0.3",
     "jquery": "^3.3.1",
     "lodash": "^4.17.11",
+    "logrocket": "^0.6.17",
     "material-icons": "^0.2.3",
     "materialize-css": "^1.0.0-rc.2"
   }

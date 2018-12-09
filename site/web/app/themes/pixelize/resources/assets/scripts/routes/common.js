@@ -1,7 +1,10 @@
 import M from 'materialize-css/dist/js/materialize.js';
+import LogRocket from 'logrocket';
 
 export default {
   init() {
+    LogRocket.init('8y25el/tinypixelio');
+
     let navEl = document.querySelectorAll('.sidenav');
     const nav = M.Sidenav.init(navEl, {
       preventScroling: true,
