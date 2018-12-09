@@ -1,8 +1,7 @@
 module.exports = {
   "root": true,
   "extends": [
-    "eslint:recommended",
-    "plugin:vue/essential",
+    "eslint:recommended"
   ],
   "globals": {
     "wp": true
@@ -25,8 +24,7 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "import",
-    "vue-a11y"
+    "import"
   ],
   "settings": {
     "import/core-modules": [],
