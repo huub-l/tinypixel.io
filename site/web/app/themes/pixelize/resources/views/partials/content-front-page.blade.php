@@ -53,7 +53,7 @@
                           'title'        => 'Case Study',
                           'link_url'     => '#',
                           'link_copy'    => 'Stop Kinder Morgan Legal Defence Fund',
-                          'image'        => 'images/stop-km.png',
+                          'image'        => 'images/stop-km.jpg',
                           'reveal_title' => 'Stop Kinder Morgan Legal Defence Fund',
                           'reveal_icons' => array('js', 'react'),
                           'reveal_body'  => '<p>The Stop KM Legal Defence Fund\'s purpose is to collect and distribute funds to support legal defence costs stemming from civil disobedience to the Trans Mountain pipeline expansion.</p>
