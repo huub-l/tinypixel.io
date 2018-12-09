@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
     steps:
-      - run: apt-get install libpng-dev -y --no-install-recommends
+      - run: apt-get install libpng-dev automake libtool autoconf -y --no-install-recommends
       - checkout
       - run: cd site/web/app/themes/pixelize && yarn && yarn build && yarn build:production
   deploy-staging:
