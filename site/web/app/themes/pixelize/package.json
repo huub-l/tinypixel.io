@@ -88,6 +88,7 @@
     "postcss-loader": "~2.1.0",
     "postcss-safe-parser": "~3.0",
     "resolve-url-loader": "~2.3.1",
+    "husky": "^1.2.0",
     "rimraf": "~2.6",
     "sass-loader": "~6.0",
     "style-loader": "^0.22.1",
@@ -104,15 +105,10 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
-    "animatewithsass": "^3.2.1",
-    "axios": "^0.18.0",
     "fullpage.js": "^3.0.3",
-    "husky": "^1.2.0",
     "jquery": "^3.3.1",
     "lodash": "^4.17.11",
     "material-icons": "^0.2.3",
-    "materialize-css": "^1.0.0-rc.2",
-    "normalize.css": "^8.0.0",
-    "velocity-animate": "^1.5.2"
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
