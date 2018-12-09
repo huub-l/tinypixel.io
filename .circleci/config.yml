@@ -3,18 +3,11 @@
 ---
 version: 2
 jobs:
-  build:
-    docker:
-      - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
-    steps:
-      - run: apt-get install libpng-dev automake libtool autoconf -y --no-install-recommends
-      - checkout
-      - run: cd site/web/app/themes/pixelize && yarn && yarn build && yarn build:production
   deploy-staging:
     docker:
-      - image: benword/ubuntu16.04-ansible2.5.3-nvm-yarn:0.0.1
+      - image: itinerisltd/tiller:latest
     environment:
-      ANSIBLE_HOST_KEY_CHECKING: false
+      host_key_checking: false
       SITE_ENV: staging
       SITE_KEY: tinypixel.io
     steps:
@@ -64,16 +57,11 @@ workflows:
   version: 2
   tiller:
     jobs:
-      - build
       - deploy-staging:
-          requires:
-            - build
           filters:
             branches:
               only: development
       - deploy-production:
-          requires:
-            - build
           filters:
             branches:
               only: master
