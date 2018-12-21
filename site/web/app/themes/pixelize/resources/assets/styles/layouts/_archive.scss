@@ -1,0 +1,34 @@
+.archive .category,
+.archive .author {
+  text-transform: uppercase;
+}
+
+.archive h1,
+.author h1 {
+  @extend h2;
+
+  margin-top: 0;
+}
+
+.archive .card,
+.author .card {
+  > .card-title {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  margin-bottom: $spacer;
+}
+
+.archive .side-right,
+.author .side-right {
+  svg.svg {
+    max-width: 15vw;
+
+    g path,
+    g polygon,
+    g rect {
+      fill: $primary-color;
+    }
+  }
+}

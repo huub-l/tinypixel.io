@@ -1,0 +1,225 @@
+article .alignleft {
+  margin-right: $spacer;
+
+  > * {
+    float: left;
+  }
+}
+
+article .alignright {
+  margin-left: $spacer;
+
+  > *:not(figcaption) {
+    float: right;
+  }
+}
+
+article > *:not(.alignwide):not(.alignfull) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article > *.alignwide {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article .alignfull {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  max-width: 100% !important;
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
+
+article > *.alignfull {
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+article > p {
+  margin: ($spacer) auto ($spacer) auto;
+}
+
+article > .wp-block-spacer,
+article > .wp-block-separator,
+article > .wp-block-image,
+article > .wp-block-gallery,
+article > .wp-block-cover,
+article > .wp-block-quote,
+article > .wp-block-pull-quote,
+article > .wp-block-audio,
+article > .wp-block-button,
+article > .wp-block-verse,
+article > .wp-block-table {
+  margin: ($spacer*2) 0 ($spacer*2) 0;
+}
+
+article > .wp-block-blockgallery,
+article > .wp-block-blockgallery-stacked,
+article > .wp-block-blockgallery-masonry {
+  margin-top: ($spacer * 2);
+  margin-bottom: ($spacer * 2);
+}
+
+article > .wp-block-blockgallery-carousel:last-child {
+  margin-bottom: 0;
+
+  figcaption {
+    display: none;
+  }
+}
+
+article > .wp-block-separator {
+  clear: both;
+}
+
+article > .wp-block-pullquote {
+  padding: ($spacer * 3) auto ($spacer * 3) auto;
+
+  & cite {
+    display: inline-block;
+    padding-top: ($spacer/1.5);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+
+    &::before {
+      content: '— ';
+    }
+  }
+}
+
+article .wp-block-pullquote.alignfull,
+article .wp-block-pullquote.alignwide, {
+  padding: ($spacer * 3) ($spacer*2) ($spacer *3) ($spacer*2);
+}
+
+article.wp-pullquote.alignleft {
+  > * {
+    margin: $spacer $spacer $spacer 0;
+  }
+
+  p,
+  cite {
+    text-align: left;
+  }
+
+  cite {
+    float: left;
+  }
+}
+
+article.wp-pullquote.alignright {
+  > * {
+    margin: $spacer 0 $spacer $spacer;
+  }
+
+  p,
+  cite {
+    text-align: right;
+  }
+}
+
+article > .wp-block-button.alignright > * {
+  margin: ($spacer/2) 0 ($spacer/2) $spacer;
+}
+
+article > .wp-block-button.alignleft > * {
+  margin: ($spacer/2) $spacer ($spacer/2) 0;
+}
+
+article > .wp-block-quote.is-large {
+  line-height: 0.8rem;
+
+  & cite {
+    display: inline-block;
+    padding-top: ($spacer/1.5);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+
+    &::before {
+      content: '— ';
+    }
+  }
+}
+
+article > .wp-block-cover,
+article .wp-block-ugb-header.alignfull {
+  clear: both;
+}
+
+article > .wp-block-cover.alignleft {
+  float: left;
+  padding: 0 $spacer 0 $spacer;
+  max-width: 40%;
+  margin-left: 20%;
+  margin-right: $spacer;
+}
+
+article > .wp-block-cover.alignright {
+  float: right;
+  max-width: 40%;
+  margin-right: 20%;
+  margin-left: $spacer;
+  padding: 0 $spacer 0 $spacer;
+}
+
+article > .wp-block-table {
+  @extend .responsive-table;
+
+  width: 100%;
+}
+
+article .wp-block-spacer {
+  height: 0 !important;
+}
+
+article > *:first-child:not(.spacer) {
+  padding-top: ($spacer * 2);
+  margin-top: 0;
+}
+
+article > *:last-child:not(.spacer):not(p) {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* stylelint-disable */
+article > p:last-child {
+  margin-bottom: ($spacer*2);
+  display: block;
+}
+/* stylelint-enable */
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
