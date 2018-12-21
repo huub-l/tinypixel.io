@@ -14,7 +14,7 @@
             <a href="tel:3603862683" class="btn waves-effect waves-light">
               <i class="material-icons left">phone</i> ‭(360) 386 CODE 
             </a>
-            <a class="waves-effect waves-light btn-flat"><i class="material-icons left">email</i> hello@tinypixel.io</a>
+            <a href="mailto:hello@tinypixel.io" class="waves-effect waves-light btn-flat"><i class="material-icons left">email</i> hello@tinypixel.io</a>
           </p>
         </div>
       </div>
