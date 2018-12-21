@@ -1,0 +1,43 @@
+.navbar-extended {
+  .nav-content {
+    line-height: 1rem;
+  }
+
+  i,
+  [class^="mdi-"],
+  [class*="mdi-"],
+  i.material-icons {
+    font-size: 24px;
+    height: $navbar-height-mobile;
+    line-height: $navbar-line-height-mobile;
+  }
+
+  // Logo
+  .brand-logo {
+    max-height: 80vh;
+    overflow: hidden;
+
+    .svg {
+      height: 48px;
+      fill: $navbar-font-color;
+      padding-left: 1rem;
+      padding-top: 1rem;
+    }
+
+    i,
+    [class^="mdi-"],
+    [class*="mdi-"],
+    i.material-icons {
+      margin-right: 15px;
+    }
+  }
+
+  #nav-mobile {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .nav-content a {
+    color: $off-black;
+  }
+}

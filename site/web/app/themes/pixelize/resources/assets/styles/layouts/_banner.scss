@@ -1,0 +1,107 @@
+.header-container {
+  background-size: cover;
+  background-position: 50% 20%;
+  min-height: 40vh;
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%;
+  }
+
+  & > * {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+  }
+
+  & > p {
+    letter-spacing: 0.1ch;
+  }
+
+  & svg.svg {
+    opacity: 0.9;
+    max-width: 40%;
+  }
+}
+
+.header.type-author,
+.header.type-page,
+.header.type-post,
+.header.type-single,
+.header.type-archive {
+  padding-top: 15vh;
+  padding-bottom: 4vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > .category {
+    @extend small;
+
+    max-width: 980px;
+  }
+}
+
+.single .post-list,
+.page .post-list,
+.post .post-list,
+.archive .post-list {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header.type-archive,
+.header.type-author {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.archive article {
+  margin-bottom: $spacer;
+}
+
+.archive article > .card {
+  @extend .z-depth-2;
+
+  padding: 24px !important;
+
+  &:hover {
+    @extend .z-depth-1;
+  }
+
+  .card-title {
+    @extend %h3;
+
+    font-family: $font-stack-sans;
+    margin-bottom: $spacer;
+
+    a {
+      color: $primary-color-dark;
+
+      &:hover {
+        color: $primary-color-light;
+      }
+    }
+  }
+}
+
+.archive .side-right svg {
+  padding: 0 0 0 6rem;
+  max-width: 20vw;
+  position: relative;
+  top: -10vh;
+}
+
+.archive .side-right svg polygon,
+.archive .side-right svg g {
+  fill: $off-black;
+}
+
+.archive .card-panel.indigo {
+  color: white;
+}

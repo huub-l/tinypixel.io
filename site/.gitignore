@@ -2,9 +2,11 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
+web/app/mu-plugins/wp-migrate-db-pro-compatibility.php
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+web/app/updraft
 
 # WordPress
 web/wp
@@ -22,3 +24,5 @@ web/.htaccess
 
 # Composer
 /vendor
+auth.json
+.DS_Store
