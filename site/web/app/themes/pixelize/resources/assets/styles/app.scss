@@ -14,7 +14,6 @@
 /** fonts */
 @mixin sans-serif() {
   font-family: $font-stack-sans;
-  letter-spacing: 0.1ch;
 }
 
 body {
