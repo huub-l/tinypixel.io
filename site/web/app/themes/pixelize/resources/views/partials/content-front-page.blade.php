@@ -3,7 +3,7 @@
   <div class="valign-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col s12 m9 l7">
+        <div class="col s12 m9 l6">
           <h2>{!! get_bloginfo('description') !!}</h2>
         </div>
       </div>
