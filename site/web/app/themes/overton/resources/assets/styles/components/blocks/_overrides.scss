@@ -5,3 +5,9 @@ main.main .wp-block-kebo-code.kebo-code {
     @apply font-mono;
   }
 }
+
+main.main {
+  iframe.airtable-embed.airtable-dynamic-height {
+    @apply block max-w-lg w-full mx-auto;
+  }
+}

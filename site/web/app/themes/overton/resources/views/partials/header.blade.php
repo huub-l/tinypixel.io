@@ -1,5 +1,5 @@
 <nav class="top-nav">
-  <div class="max-w-lg w-full mx-auto flex flex-wrap flex-grow items-start justify-center">
+  <div class="max-w-lg w-full mx-auto flex flex-wrap flex-grow items-start justify-start md:justify-center">
     <div class="title">
       <a href="/">
         @svg('logo_horizontal_white')

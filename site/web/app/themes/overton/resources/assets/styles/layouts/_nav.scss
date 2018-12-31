@@ -1,42 +1,42 @@
 .top-nav {
-  @apply flex flex-wrap items-start justify-center bg-indigo pt-6 pb-6 px-0;
+  @apply flex flex-wrap items-start justify-start bg-indigo pt-6 pb-6 px-0;
+
+  @screen md {
+    @apply flex flex-wrap items-end justify-end;
+  }
 }
 
 .top-nav .title {
   @apply
-    flex items-start justify-start
+    flex items-start justify-start self-start
     uppercase text-white
     px-2 mx-0;
 
   svg {
-    @apply self-start justify-start fill-current h-16 pl-0 pr-0 pt-2;
+    @apply max-w-full self-start justify-start fill-current h-16 py-2;
   }
 }
 
 .top-nav .nav {
-  @apply list-reset flex flex-grow self-center justify-end items-end mx-0 px-0;
+  @apply list-reset flex flex-no-grow self-start justify-start items-start mx-0 px-0 pt-4 pb-3;
 
-  @media (max-width: md) {
-    @apply flex flex-grow self-start justify-start text-center items-end;
-  }
-
-  @screen sm {
+  @media (min-width: 430px) {
     @apply flex flex-grow justify-end items-end mx-0 pl-0;
   }
 
   li {
-    @apply flex-grow justify-center self-center text-center px-2;
+    @apply flex-no-grow justify-start self-start text-left px-2;
 
-    @screen sm {
-      @apply flex-no-grow justify-end self-end text-right;
+    @screen md {
+      @apply flex-no-grow justify-end self-end text-center;
     }
   }
 
   li a {
-    @apply py-2 px-2 leading-none text-white text-sm text-center no-underline;
+    @apply py-2 px-2 leading-none text-white text-sm text-left no-underline;
 
-    @screen sm {
-      @apply text-white border-white border-solid border rounded;
+    @media (min-width: 391px) {
+      @apply text-white border-white border-solid border rounded text-center;
     }
   }
 
