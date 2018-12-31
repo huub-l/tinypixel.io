@@ -1,0 +1,36 @@
+.container {
+  @apply max-w-lg mx-auto px-8;
+}
+
+@media (min-width: 576px) {
+  .container {
+    @apply max-w-sm px-8;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    @apply max-w-md px-8;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    @apply max-w-lg;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-sans;
+}
+
+p,
+ul li,
+ol li {
+  @apply font-mono;
+}
