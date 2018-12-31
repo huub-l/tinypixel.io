@@ -1,3 +1,5 @@
 <header>
-  <h1 class="px-0">{!! App::title() !!}</h1>
+  <div class="max-w-lg w-full mx-auto">
+  <h1 class="entry-title">{!! App::title() !!}</h1>
+</div>
 </header>

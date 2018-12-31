@@ -1,12 +1,12 @@
 .top-nav {
-  @apply flex flex-wrap items-start justify-center bg-indigo pt-6 pb-6 px-2;
+  @apply flex flex-wrap items-start justify-center bg-indigo pt-6 pb-6 px-0;
 }
 
 .top-nav .title {
   @apply
     flex items-start justify-start
     uppercase text-white
-    px-0 mx-0;
+    px-2 mx-0;
 
   svg {
     @apply self-start justify-start fill-current h-16 pl-0 pr-0 pt-2;
@@ -17,17 +17,17 @@
   @apply list-reset flex flex-grow self-center justify-end items-end mx-0 px-0;
 
   @media (max-width: md) {
-    @apply flex flex-grow self-center justify-center text-center items-end;
+    @apply flex flex-grow self-start justify-start text-center items-end;
   }
 
-  @screen md {
+  @screen sm {
     @apply flex flex-grow justify-end items-end mx-0 pl-0;
   }
 
   li {
     @apply flex-grow justify-center self-center text-center px-2;
 
-    @screen md {
+    @screen sm {
       @apply flex-no-grow justify-end self-end text-right;
     }
   }
@@ -35,7 +35,7 @@
   li a {
     @apply py-2 px-2 leading-none text-white text-sm text-center no-underline;
 
-    @screen md {
+    @screen sm {
       @apply text-white border-white border-solid border rounded;
     }
   }

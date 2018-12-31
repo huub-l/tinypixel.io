@@ -203,6 +203,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Simplon Norm',
       'IBM Plex Sans',
       'system-ui',
       'BlinkMacSystemFont',
@@ -218,7 +219,6 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
-      'IBM Plex Serif',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
@@ -231,6 +231,7 @@ module.exports = {
       'serif',
     ],
     'mono': [
+      'Simplon Mono',
       'IBM Plex Mono',
       'Menlo',
       'Monaco',

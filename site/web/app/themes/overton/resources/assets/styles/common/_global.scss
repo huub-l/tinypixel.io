@@ -25,12 +25,37 @@ h2,
 h3,
 h4,
 h5,
+h6,
+p,
+span,
+a,
+table {
+  @apply inline-block font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  @apply font-sans;
+  @apply font-sans leading-normal;
+}
+
+pre,
+.wp-block-code,
+.wp-block-verse,
+code,
+ul,
+ol {
+  @apply font-mono overflow-hidden;
 }
 
 p,
-ul li,
-ol li {
-  @apply font-mono;
+ul:not([class*="wp-block"]) li,
+ol:not([class*="wp-block"]) li,
+pre,
+span,
+table * {
+  @apply text-base leading-normal;
 }

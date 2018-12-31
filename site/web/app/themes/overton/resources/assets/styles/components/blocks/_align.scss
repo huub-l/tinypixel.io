@@ -45,4 +45,8 @@ main.main {
       @apply max-w-full;
     }
   }
+
+  .airtable-embed {
+    @apply block max-w-lg w-full mx-auto;
+  }
 }

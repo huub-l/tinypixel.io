@@ -1,15 +1,15 @@
 body:not(.front-page-data) > header:first-of-type {
-  @apply max-w-full bg-indigo px-0 pt-20 pb-8 px-2 mb-0 mx-auto;
+  @apply w-full bg-indigo px-0 pt-20 pb-8 px-0 mb-0 mx-auto;
 
   margin-top: -2.5rem;
 
   h1 {
-    @apply max-w-lg mx-auto text-white mt-8 mb-0 pb-4 text-4xl;
+    @apply w-full inline-block mx-auto text-white mt-8 mb-0 px-2 pb-4 text-4xl;
   }
 
-  > .updated,
-  > .byline {
-    @apply max-w-lg mx-auto text-white tracking-wide uppercase font-light text-sm mb-8;
+  .updated,
+  .byline {
+    @apply max-w-lg mx-auto text-white tracking-wide uppercase font-light text-white text-sm mb-8;
 
     a {
       @apply text-white;
