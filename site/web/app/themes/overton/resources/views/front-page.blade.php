@@ -25,31 +25,47 @@
     <div class="wave-container">
       <div class="wave"></div>
     </div>
-    <header class="flex flex-grow flex-wrap w-full overflow-hidden 
-                   pt-0 pb-12 px-12 mx-auto items-center items-middle">
+    <header class="max-w-xl flex flex-grow flex-wrap w-full overflow-hidden 
+                   pt-0 pb-12 px-12 mx-auto items-center">
       <div class="max-w-md w-full md:w-3/5 mx-auto pb-10 pt-10 md:pt-20">
         <div class="mx-auto max-w-full w-full md:w-full" style="opacity: 0.9;">
           @svg('wireframe-caty')
         </div>
       </div>
       <div class="w-full md:w-2/5 md:pl-12 pb-12 pt-0 md:pt-12 mx-auto">
-        <h1 class="w-full mb-2">Create Problem Solving</h1>
-        <h2 class="w-full mb-4">She's a good worker.</h2>
-        <p>With past experience in the bookselling industry, Caty is an amazing reference! You'll be glad to have her managing inventory.s</p>
+        <h2 class="w-full mb-4">We Build for Tomorrow</h2>
+        <h3 class="w-full mb-4 font-normal">Our partners' projects never stop evolving, because our team never stops learning.</h3>
       </div>
     </header>
-    <div class="skew">
-    </div>
-    <header class="flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
-                   md:pt-20 pb-20 px-12 mx-auto items-center bg-blue-lightest">
-      <div class="w-full md:w-3/5 mx-auto pb-10">
-      <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100" style="right:40%">
-          @svg('web-frame-caty')
+    <div class="skew skew-top"></div>
+    <header class="bg-blue-lightest">
+      <div class="max-w-2xl flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
+                   md:pt-20 pb-20 px-12 mx-auto items-center">
+        <div class="w-full md:w-3/5 mx-auto pb-10">
+          <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100" style="right:40%">
+            @svg('web-frame-caty')
+          </div>
+        </div>
+        <div class="w-full max-w-lg md:w-2/5 md:pl-12 mx-auto">
+          <h2 class="w-full mb-2">Partners, Not Clients</h2>
+          <h3 class="w-full mb-4 font-normal">When we take on a project, we're friends for life. That means tutorials, 24/7 support, and cake on your birthday.</h3>
         </div>
       </div>
-      <div class="w-full max-w-lg md:w-2/5 md:pl-12 mx-auto">
-        <h1 class="w-full mb-2">We know how to frame an issue</h1>
-          <h2 class="w-full mb-4">And do it </h2>
+    </header>
+    <div class="skew skew-btm"></div>
+    <header class="bg-white">
+      <div class="max-w-xl flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
+                   md:pt-10 pb-20 px-12 mx-auto items-center">
+        <div class="w-full max-w-lg md:w-2/5 md:pl-12 mx-auto">
+          <h2 class="w-full mb-2">Accessibility matters</h2>
+          <h3 class="w-full mb-4 font-normal">We believe the web should work for <em>everyone</em> &mdash; not just those who move, see, or think
+          in specific ways.</h3>
+        </div>
+        <div class="w-full md:w-3/5 mx-auto pb-10">
+          <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100" style="right:40%">
+            @svg('accessible')
+          </div>
+        </div>
       </div>
     </header>
   @endwhile
