@@ -1,7 +1,5 @@
 body:not(.front-page-data) > header:first-of-type {
-  @apply inline-block w-full bg-indigo px-0 pt-20 pb-8 px-0 mb-0 mx-auto;
-
-  margin-top: -2.5rem;
+  @apply inline-block w-full bg-indigo px-0 pt-0 pb-8 px-0 mb-0 mx-auto;
 
   h1 {
     @apply w-full inline-block mx-auto text-white mt-8 mb-0 px-2 pb-4 text-4xl;

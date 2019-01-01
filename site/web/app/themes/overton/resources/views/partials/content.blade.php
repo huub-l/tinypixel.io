@@ -9,7 +9,7 @@
     </blockquote>
     <p class="button md:text-left mt-8"><a class="mx-0 text-white border-white border rounded 
                       text-sm text-center no-underline px-4 py-2 font-sans uppercase
-                      hover:border-white hover:bg-white hover:text-indigo" href="/get-started">
+                      hover:border-white hover:bg-white hover:text-indigo" href="{!! get_the_permalink() !!}">
                       Let's get started
             </a></p>
   </div>

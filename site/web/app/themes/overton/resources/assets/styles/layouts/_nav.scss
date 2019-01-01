@@ -1,5 +1,5 @@
 .top-nav {
-  @apply flex flex-wrap items-start justify-start bg-indigo pt-6 pb-6 px-0;
+  @apply flex flex-wrap items-start justify-start bg-indigo pt-3 pb-6 px-0;
 
   @screen md {
     @apply flex flex-wrap items-end justify-end;
@@ -18,7 +18,7 @@
 }
 
 .top-nav .nav {
-  @apply list-reset flex flex-no-grow self-start justify-start items-start mx-0 px-0 pt-4 pb-3;
+  @apply list-reset flex flex-no-grow self-start justify-start items-start mx-0 px-0 pt-3 pb-3;
 
   @media (min-width: 430px) {
     @apply flex flex-grow justify-end items-end mx-0 pl-0;

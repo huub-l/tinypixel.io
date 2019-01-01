@@ -25,44 +25,44 @@
     <div class="wave-container">
       <div class="wave"></div>
     </div>
-    <header class="max-w-xl flex flex-grow flex-wrap w-full overflow-hidden 
+    <header class="max-w-2xl flex flex-grow flex-wrap w-full overflow-hidden 
                    pt-0 pb-20 px-12 mx-auto items-center">
-      <div class="max-w-md w-full md:w-3/5 mx-auto pb-10 pt-10 md:pt-20">
-        <div class="mx-auto max-w-full w-full md:w-full" style="opacity: 0.9;">
+      <div class="max-w-md w-full md:w-3/5 mx-auto pb-10 pt-10 md:pt-20 md:pr-20">
+        <div class="mx-auto w-screen-120 md:w-full relative md:static" style="opacity: 0.9; right: 20%;">
           @svg('wireframe-caty')
         </div>
       </div>
-      <div class="w-full md:w-2/5 md:pl-12 pb-20 pt-20 md:pt-20 mx-auto">
+      <div class="w-full md:w-2/5 pb-10 pt-10 md:pt-20 mx-auto">
         <h2 class="w-full mb-4">We Build for Tomorrow</h2>
-        <h3 class="w-full mb-4 font-normal">Our partners' projects never stop evolving, because our team never stops learning.</h3>
+        <h3 class="w-full mb-4 font-normal font-mono">Our partners' projects never stop evolving, because our team never stops learning.</h3>
       </div>
     </header>
     <div class="skew skew-top"></div>
     <header class="bg-blue-lightest">
       <div class="max-w-2xl flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
-                   md:pt-0 pb-20 px-12 mx-auto items-center">
+                   pt-0 pb-20 px-12 mx-auto items-center">
         <div class="w-full md:w-3/5 mx-auto pb-10">
           <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100" style="right:40%">
             @svg('web-frame-caty')
           </div>
         </div>
-        <div class="w-full max-w-lg md:w-2/5 pt-10 pb-10 md:pl-6 mx-auto">
+        <div class="w-full max-w-lg md:w-2/5 pt-10 pb-20 mx-auto">
           <h2 class="w-full mb-2">Partners, Not Clients</h2>
-          <h3 class="w-full mb-4 font-normal">When we take on a project, we're friends for life. That means tutorials, 24/7 support, and cake on your birthday.</h3>
+          <h3 class="w-full mb-4 font-normal font-mono">When we take on a project, we're friends for life. That means tutorials, 24/7 support, and cake on your birthday.</h3>
         </div>
       </div>
     </header>
     <div class="skew skew-btm"></div>
     <header class="bg-white">
-      <div class="max-w-xl flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
-                   md:pt-10 pb-20 px-12 mx-auto items-center">
-        <div class="w-full max-w-lg md:w-2/5 md:pl-12 mx-auto">
+      <div class="max-w-2xl flex flex-grow md:flex-row-reverse flex-wrap w-full overflow-hidden 
+                   md:pt-10 pb-20 px-12 md:pr-12 mx-auto items-center">
+        <div class="w-full max-w-lg md:w-2/5 md:pl-12 pb-10 pt-10 mx-auto">
           <h2 class="w-full mb-2">Accessibility matters</h2>
-          <h3 class="w-full mb-4 font-normal">We believe the web should work for <em>everyone</em> &mdash; not just those who move, see, or think
+          <h3 class="w-full mb-4 font-normal font-mono">We believe the web should work for <em>everyone</em> &mdash; not just those who move, see, or think
           in specific ways.</h3>
         </div>
         <div class="w-full md:w-3/5 mx-auto pb-10">
-          <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100" style="right:40%">
+          <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100 md:mr-20 md:position-r-20" style="right:40%">
             @svg('accessible')
           </div>
         </div>
