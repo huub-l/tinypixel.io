@@ -1,9 +1,12 @@
 main.main {
   > .wp-block-cover.alignfull,
   > .wp-block-cover.alignwide,
-  > .wp-block-image.alignfull,
+  > .wp-block-image.alignfull {
+    @apply pt-8 pb-6;
+  }
+
   > .wp-block-image.alignwide {
-    @apply py-4;
+    @apply pt-4 pb-4;
   }
 
   > .wp-block-cover.alignleft,

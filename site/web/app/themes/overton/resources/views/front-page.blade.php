@@ -61,7 +61,7 @@
           <h3 class="w-full mb-4 font-normal font-mono">We believe the web should work for <em>everyone</em> &mdash; not just those who move, see, or think
           in specific ways.</h3>
         </div>
-        <div class="w-full md:w-3/5 mx-auto pb-10">
+        <div class="w-full md:w-3/5 mx-auto pt-10 pb-10">
           <div class="w-full mx-auto w-screen-140 relative md:static md:w-full opacity-100 md:mr-20 md:position-r-20" style="right:40%">
             @svg('accessible')
           </div>

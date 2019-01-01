@@ -4,6 +4,9 @@
 /** Import variables */
 @import "common/variables";
 
+/** Vendor utilities */
+@import "~animate.css";
+
 @tailwind components;
 
 @import "common/global";

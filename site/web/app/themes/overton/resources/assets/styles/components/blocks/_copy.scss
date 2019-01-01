@@ -9,7 +9,7 @@ main.main {
   span,
   a,
   table {
-    @apply font-sans ml-auto mr-auto py-0 px-2;
+    @apply font-mono ml-auto mr-auto py-0 px-2;
   }
 
   h1,
@@ -22,21 +22,21 @@ main.main {
   }
 
   h1 {
-    @apply pt-12 pb-12;
+    @apply text-4xl pt-12 pb-12;
   }
 
   h2 {
-    @apply pt-12 pb-8 uppercase;
+    @apply text-3xl pt-12 pb-8 uppercase;
   }
 
   h3 {
-    @apply py-4;
+    @apply text-2xl py-4;
   }
 
   h4,
   h5,
   h6 {
-    @apply my-0 py-2 uppercase;
+    @apply text-xl my-0 py-2 uppercase;
   }
 
   pre,
@@ -49,12 +49,15 @@ main.main {
   }
 
   p,
-  ul:not([class*="wp-block"]) li,
-  ol:not([class*="wp-block"]) li,
+  p *,
   pre,
+  pre *,
   span,
-  table * {
-    @apply text-base leading-normal;
+  span *,
+  table *,
+  ul *,
+  li * {
+    @apply text-lg font-mono;
   }
 
   > h1,
@@ -67,7 +70,7 @@ main.main {
   > span,
   > a,
   > table {
-    @apply block max-w-lg w-full ml-auto mr-auto px-2;
+    @apply max-w-lg w-full ml-auto mr-auto px-2;
   }
 
   > p {
