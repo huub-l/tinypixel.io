@@ -11,9 +11,9 @@
     cache_valid_time: "{{ apt_cache_valid_time }}"
   with_dict: "{{ php_extensions }}"
 
-- name: Start php7.2-fpm service
+- name: Start php7.3-fpm service
   service:
-    name: php7.2-fpm
+    name: php7.3-fpm
     state: started
     enabled: true
 

@@ -1,279 +1,118 @@
-### 1.9.0: 2018-09-17
-
-* Fix error display in development environments ([c457082](https://github.com/roots/bedrock/commit/c457082cf4b153400d3e34f4f68a30eea4cc7c38))
-* --prefer-dist on roave/security-advisories ([#381](https://github.com/roots/bedrock/pull/381))
-* New Bedrock Configuration Model ([#380](https://github.com/roots/bedrock/pull/380))
-* Remove vendor/.gitkeep ([#379](https://github.com/roots/bedrock/pull/379))
-* Composer 1.7.0 lockfile ([#378](https://github.com/roots/bedrock/pull/378))
-* Adds roave/security-advisories to composer dev deps ([#376](https://github.com/roots/bedrock/pull/376))
-
-### 1.8.12: 2018-08-03
-
-* Update to WordPress 4.9.8
-
-### 1.8.11: 2018-07-09
-
-* Update to WordPress 4.9.7
-
-### 1.8.10: 2018-05-18
-
-* Update to WordPress 4.9.6
-
-### 1.8.9: 2018-04-04
-
-* Update to WordPress 4.9.5
-
-### 1.8.8: 2018-02-06
-
-* Update to WordPress 4.9.4
-
-### 1.8.7: 2018-02-05
-
-* Update to WordPress 4.9.3
-
-### 1.8.6: 2018-01-16
-
-* Update to WordPress 4.9.2
-
-### 1.8.5: 2017-11-29
-
-* Update to WordPress 4.9.1
-
-### 1.8.4: 2017-11-16
-
-* Update to WordPress 4.9.0
-
-### 1.8.3: 2017-10-31
-
-* Update to WordPress 4.8.3
-
-### 1.8.2: 2017-09-19
-
-* Update to WordPress 4.8.2
-
-### 1.8.1: 2017-08-02
-
-* Update to WordPress 4.8.1
-
-### 1.8.0: 2017-06-08
-
-* Update to WordPress 4.8.0
-
-### 1.7.9: 2017-05-16
-
-* Update to WordPress 4.7.5
-
-### 1.7.8: 2017-05-03
-
-* Update `johnpbloch/wordpress` to 4.7.4.1 (see https://github.com/johnpbloch/wordpress/issues/32)
-
-### 1.7.7: 2017-04-20
-
-* Update to WordPress 4.7.4
-
-### 1.7.6: 2017-03-06
-
-* Update to WordPress 4.7.3
-
-### 1.7.5: 2017-01-26
-
-* Update to WordPress 4.7.2
-
-### 1.7.4: 2017-01-11
-
-* Update to WordPress 4.7.1
-* Add Optional variables to `.env.example`
-* Remove unnecessary gitignore rules ([#286](https://github.com/roots/bedrock/pull/286))
-
-### 1.7.3: 2016-12-06
-
-* Update to WordPress 4.7
-* Default `WP_ENV` to `production` instead of `development` ([#277](https://github.com/roots/bedrock/pull/277))
-
-### 1.7.2: 2016-09-07
-
-* Update to WordPress 4.6.1
-
-### 1.7.1: 2016-08-16
-
-* Update to WordPress 4.6
-
-### 1.7.0: 2016-07-10
-
-* Bump PHP requirement to >= 5.6 (5.5 is no longer supported)
-
-### 1.6.4: 2016-06-21
-
-* Update to WordPress 4.5.3
-
-### 1.6.3: 2016-05-06
-
-* Update to WordPress 4.5.2
-
-### 1.6.2: 2016-04-26
-
-* Update to WordPress 4.5.1
-
-### 1.6.1: 2016-04-12
-
-* Update to WordPress 4.5
-* Update coding standards (PSR-2) ([#244](https://github.com/roots/bedrock/pull/244))
-
-### 1.6.0: 2016-03-03
-
-* Add wp-password-bcrypt for more secure passwords ([#243](https://github.com/roots/bedrock/pull/243))
-
-### 1.5.4: 2016-02-29
-
-* Use HTTPS for wpackagist.org
-
-### 1.5.3: 2016-02-03
-
-* Update to WordPress 4.4.2
-
-### 1.5.2: 2016-02-01
-
-* Bump `composer/installers` dependency to 1.0.23 to fix deprecation notice
-
-### 1.5.1: 2016-01-27
-
-* Use [oscarotero/env](https://github.com/oscarotero/env) instead of `getenv` ([#229](https://github.com/roots/bedrock/pull/233))
-
-### 1.5.0: 2016-01-17
-
-* Fix `DISABLE_WP_CRON` setting via ENV variable ([#229](https://github.com/roots/bedrock/pull/229))
-* Set default `DB_CHARSET` to `utf8mb4`
-
-### 1.4.7: 2016-01-07
-
-* Update to WordPress 4.4.1
-
-### 1.4.6: 2015-12-09
-
-* Update to WordPress 4.4
-
-### 1.4.5: 2015-09-16
-
-* Update to WordPress 4.3.1
-* Bump minimum required PHP version to 5.5 ([#201](https://github.com/roots/bedrock/pull/201))
-
-### 1.4.4: 2015-08-18
-
-* Update to WordPress 4.3
-
-### 1.4.3: 2015-08-04
-
-* Update to WordPress 4.2.4
-
-### 1.4.2: 2015-07-24
-
-* Update to WordPress 4.2.3
-
-### 1.4.1: 2015-06-30
-
-* Dotenv 2.0.1 update
-
-### 1.4.0: 2015-06-07
-
-* Removed .env generation script
-
-### 1.3.7: 2015-05-07
-
-* Update to WordPress 4.2.2
-
-### 1.3.6: 2015-04-27
-
-* Update to WordPress 4.2.1
-
-### 1.3.5: 2015-04-23
-
-* Update to WordPress 4.2
-* Update to WordPress 4.1.2
-* Don't register theme directory if `WP_DEFAULT_THEME` is defined
-* Move Capistrano configs to https://github.com/roots/bedrock-capistrano
-
-### 1.3.4: 2015-02-18
-
-* WordPress 4.1.1 fix
-
-### 1.3.3: 2015-02-18
-
-* Update to WordPress 4.1.1
-* mu-plugins autoloader Multisite fix
-* Coding standards update + TravisCI integration
-
-### 1.3.2: 2014-12-18
-
-* Update to WordPress 4.1
-* Remove WPLANG constant
-
-### 1.3.1: 2014-11-28
-
-* Add Capistrano task to fix/update WP theme paths after deploys
-
-### 1.3.0: 2014-11-20
-
-* Update to WordPress 4.0.1
-* Use johnpbloch/wordpress package instead of custom repository
-* Update default deploy.rb
-* Require PHP >= 5.4 in composer.json
-* Better PSR-1 adherence
-* Update phpdotenv dependency to 1.0.9
-* Fix Composer installer path plugin order
-* Add bedrock-autoloader mu-plugin
-
-### 1.2.7: 2014-09-04
-
-* Update to WordPress 4.0
-
-### 1.2.6: 2014-08-06
-
-* Update to WordPress 3.9.2
-* Minor deploy fix
-* Doc updates
-
-### 1.2.5: 2014-07-16
-
-* Update to WordPress 3.9.1
-* Doc updates
-* Add `DB_PREFIX` constant
-* Update Gem versions
-* Disallow indexing in non-production environments
-
-### 1.2.4: 2014-04-17
-
-* Fixes issue with 3.9 update (`composer.lock` wasn't updated)
-
-### 1.2.3: 2014-04-16
-
-* Update to WordPress 3.9
-
-### 1.2.2: 2014-04-14
-
-* Update to WordPress 3.8.3
-* Only run `Dotenv::load` if `.env` file exists
-
-### 1.2.1: 2014-04-08
-
-* Update to WordPress 3.8.2
-
-### 1.2.0: 2014-04-07
-
-* WP package now has `wordpress` vendor name: `wordpress/wordpress`
-* Remove wp-cli and add `wp-cli.yml` config
-
-### 1.1.1: 2014-03-11
-
-* Update phpdotenv to 1.0.6
-* Update wp-cli to v0.14.1
-* Update README to refence new WordPress Packagist namespaces
-* Fix uploads path in `linked_dirs` for Capistrano deploys
-
-### 1.1.0: 2014-03-01
-
-* Update to Capistrano 3.1.0: `deploy:restart` is no longer run by default
-* Better webroot structure: introduces the `/web` directory as the document/web root for web server vhosts
-
-### 1.0.0: 2013-12-18
-
-* Initial release
+### Changelog
+
+All notable changes to this project will be documented in this file. Dates are displayed in UTC.
+
+Generated by [`auto-changelog`](https://github.com/CookPete/auto-changelog).
+
+#### Unreleased
+
+- [ImgBot] Optimize images [`#7`](https://github.com/pixelcollective/tinypixel.io/pull/7)
+- readme [`#5`](https://github.com/pixelcollective/tinypixel.io/pull/5)
+- Rollbar, Codacy, Hound & removal of unused themes [`#4`](https://github.com/pixelcollective/tinypixel.io/pull/4)
+- Trying out 2019 theme [`55dffb6`](https://github.com/pixelcollective/tinypixel.io/commit/55dffb622b47cabe81ca3c0e1c2aaee3ee093ebb)
+- Improve: Typography [`4eaa0bd`](https://github.com/pixelcollective/tinypixel.io/commit/4eaa0bd0a3739269f481e331453245aff5aa0859)
+- Improve: Typography [`fbad60b`](https://github.com/pixelcollective/tinypixel.io/commit/fbad60b3712e46b3c2a6ecfe8d858096462b023b)
+- IMPROVE: typography [`df91348`](https://github.com/pixelcollective/tinypixel.io/commit/df913487add84c3c269d8e9783106541e161a44c)
+- FIX: mailto link on / [`aa72de0`](https://github.com/pixelcollective/tinypixel.io/commit/aa72de0526e9391488ae7064151503d1f01e337a)
+- recommitting styles. no idea how this happened. 🤷🏼‍♂️ [`28ffe15`](https://github.com/pixelcollective/tinypixel.io/commit/28ffe15d93a8e40f50c4683b1a8a7ca9028799c8)
+- wp 5.0.2 [`5c32f65`](https://github.com/pixelcollective/tinypixel.io/commit/5c32f65331660fffede09b7902caaf7f412bdbea)
+- minimal design [`e87748a`](https://github.com/pixelcollective/tinypixel.io/commit/e87748aa1241adfb0e139f13e98ae6e9f0e332f8)
+- rollbar integrated [`3b1ecbd`](https://github.com/pixelcollective/tinypixel.io/commit/3b1ecbdcf36018f8a0b5edbb384089a38aa0f19b)
+- .hound.yml [`24c9d73`](https://github.com/pixelcollective/tinypixel.io/commit/24c9d73642c850ef96e13ec1845433cdc6374c8a)
+- unnecessary themes [`c75c152`](https://github.com/pixelcollective/tinypixel.io/commit/c75c152ac8d1e14d4383f7b794054e091c4c2890)
+- logrocket [`6a902e7`](https://github.com/pixelcollective/tinypixel.io/commit/6a902e745616b6fe5fec801a953786c46917d868)
+- rollbar! [`f13ba02`](https://github.com/pixelcollective/tinypixel.io/commit/f13ba02e22dc6d719588f6c9adb9459ba7ee2f98)
+- ¯\_(ツ)_/¯ [`312267a`](https://github.com/pixelcollective/tinypixel.io/commit/312267a969578dc19b50d0fda9075f1141a1cc8f)
+- ¯\_(ツ)_/¯ [`4c0755c`](https://github.com/pixelcollective/tinypixel.io/commit/4c0755c2006ba8b98cc24f0b0d6f4a5b884a16bf)
+- re-installed animatewithsass [`d1a18f1`](https://github.com/pixelcollective/tinypixel.io/commit/d1a18f1115bbdf2593e838eb313a7e7826cd231c)
+- removed animate with sass [`4c972b8`](https://github.com/pixelcollective/tinypixel.io/commit/4c972b86557c4399eefef69e2b7c29b72cfee8dc)
+- tons of streamlining at the very least [`5bb914f`](https://github.com/pixelcollective/tinypixel.io/commit/5bb914f78ae6ab47c591a28594f87d04ed3f2397)
+- tons of streamlining at the very least [`6395978`](https://github.com/pixelcollective/tinypixel.io/commit/639597822d1de29c13f0dbd1f9b5fe7e6bce5e53)
+- removed vue_ally-ish from eslint configs [`75d0a56`](https://github.com/pixelcollective/tinypixel.io/commit/75d0a568e795c4fb9ee86a52c0aa0551adf27f8a)
+- removed node_modules [`509ca53`](https://github.com/pixelcollective/tinypixel.io/commit/509ca536d27779aba0de32a1d2312bc983a1c85f)
+- removed fontawesome [`42b65c1`](https://github.com/pixelcollective/tinypixel.io/commit/42b65c19e0fd17a4e82ae83ddb8e2ab9238fee1d)
+- replaced webpack dir [`090fb54`](https://github.com/pixelcollective/tinypixel.io/commit/090fb5480a9ef4fb7922926b8dfc29f6fd6c9726)
+- webpack.config.js adjustment [`30a9618`](https://github.com/pixelcollective/tinypixel.io/commit/30a9618874d73021c517365c15ed8cd6d0ad170a)
+- fix for templating stemming from last commit [`0060194`](https://github.com/pixelcollective/tinypixel.io/commit/0060194714c313532745bdff222cd519c0025f13)
+- stop-km.png >> stop-km.jpg re-encoding [`87055fb`](https://github.com/pixelcollective/tinypixel.io/commit/87055fb7e909aa89c7c8298286b91953fe7694cc)
+- added libpng-dev automake libtool autoconf to .circleci/config.yml [`66469ba`](https://github.com/pixelcollective/tinypixel.io/commit/66469bac345dd5fa6ea999e1dfaf7d094a3f73aa)
+- removed sudo from apt-get install command? [`be597f9`](https://github.com/pixelcollective/tinypixel.io/commit/be597f9283802d5bb45ea7deacdbe5b9e33fc16e)
+- build attempt with explicit libpng-dev dependency installation during build step [`0ac5b24`](https://github.com/pixelcollective/tinypixel.io/commit/0ac5b2430ca20be796de06692a5fe6bc4d992d62)
+- fixes for node_modules, etc [`12aab4d`](https://github.com/pixelcollective/tinypixel.io/commit/12aab4d4211eb02f7b4f64087e4ac7f2362f08c9)
+- fixes for node_modules, etc [`4effdc0`](https://github.com/pixelcollective/tinypixel.io/commit/4effdc03388df9dfa86fbf4f7a705f73438ff7ec)
+- another attempt at retlehs docker image [`569dc43`](https://github.com/pixelcollective/tinypixel.io/commit/569dc4378192e70566b33abebaa12150296b9f59)
+- another attempt at retlehs docker image [`7156647`](https://github.com/pixelcollective/tinypixel.io/commit/71566472ec7f34803d3e32e8b7e093f79588f36a)
+- another attempt at retlehs docker image [`1a83e13`](https://github.com/pixelcollective/tinypixel.io/commit/1a83e1314d072190ca9bd4781ed61f9847833fd5)
+- another attempt at retlehs docker image [`f1b228a`](https://github.com/pixelcollective/tinypixel.io/commit/f1b228a1114adab3ca058f8f18738d4cd12e37e1)
+- another attempt at retlehs docker image [`86b1eeb`](https://github.com/pixelcollective/tinypixel.io/commit/86b1eeb89e9fe8eb5780aec0a37e2b6628e9206c)
+- trying benword/ubuntu16.04-ansible2.5.3-nvm-yarn:latest circleci docker image [`e6dc799`](https://github.com/pixelcollective/tinypixel.io/commit/e6dc799b84b935259b1b013cf9338f23236f4cf0)
+- trying benword/ubuntu16.04-ansible2.5.3-nvm-yarn:latest circleci docker image [`8abeede`](https://github.com/pixelcollective/tinypixel.io/commit/8abeede6ad5bf816354a51b5a549045ed428b34b)
+- circle [`bb29c69`](https://github.com/pixelcollective/tinypixel.io/commit/bb29c69d5f81813c93a49c76cdd996fd1346381b)
+- reinstall npm packages [`bc00484`](https://github.com/pixelcollective/tinypixel.io/commit/bc004845a94ee4859cdc61d75cead270ab8b33f7)
+- imagemin tweak [`1fae522`](https://github.com/pixelcollective/tinypixel.io/commit/1fae52215d1ffdc2571d5cd41f7f739e5c753108)
+- imagemin tweak [`9428fb8`](https://github.com/pixelcollective/tinypixel.io/commit/9428fb868dd277de2a6b2b74ac164693cb521cd3)
+- fix for webpack [`13dc60c`](https://github.com/pixelcollective/tinypixel.io/commit/13dc60cf3f09e2badd01d167bde32cef607dacc5)
+- fix for webpack [`7ff12a0`](https://github.com/pixelcollective/tinypixel.io/commit/7ff12a037ec32e092e2bb4a1cd9ce340ca188f50)
+- reconfigured tiny-packagist ansible configuration and some plugin dependencies. configured for circleci. [`b2ca210`](https://github.com/pixelcollective/tinypixel.io/commit/b2ca21071e86ba641f163075f4d514b45b6aa9f4)
+- automoton commit [`33b4faf`](https://github.com/pixelcollective/tinypixel.io/commit/33b4fafb97379e29bf6cc059b6206496169f86d7)
+- here we go [`7da0162`](https://github.com/pixelcollective/tinypixel.io/commit/7da016299900c32cdbee8a19e10f737604e5a19a)
+- close calls with brick walls [`e0e73f5`](https://github.com/pixelcollective/tinypixel.io/commit/e0e73f5e385e1d89d83fc059d6c340cc9066d3bf)
+- fixes [`79d985d`](https://github.com/pixelcollective/tinypixel.io/commit/79d985dab722197b8e2224dfdfa87028d79883c0)
+- fix? [`62cda03`](https://github.com/pixelcollective/tinypixel.io/commit/62cda030e711bf760139cc0db95f600922a4be35)
+- aye carumba [`6f45cbb`](https://github.com/pixelcollective/tinypixel.io/commit/6f45cbbd257d4347e5cff4273c13e98abae5773c)
+- update composer [`27753d6`](https://github.com/pixelcollective/tinypixel.io/commit/27753d674068b5ea8d0895821f297240d3e48459)
+- try as you may [`2bd95c9`](https://github.com/pixelcollective/tinypixel.io/commit/2bd95c9c73132a1a7bd0dcc806bd8f9e7502de21)
+- deleted! [`45e628c`](https://github.com/pixelcollective/tinypixel.io/commit/45e628c1cc3d6ad974ef83de9a817fbeeae2092f)
+- update gitignore [`1f0e2f9`](https://github.com/pixelcollective/tinypixel.io/commit/1f0e2f9bfdeba34945bbcc67fda2b209cdeff806)
+- fix [`f550bd1`](https://github.com/pixelcollective/tinypixel.io/commit/f550bd13629bc22acc202f1d7900be594f35e81d)
+- fix [`f87548b`](https://github.com/pixelcollective/tinypixel.io/commit/f87548bb066e65659c0f01dd2c0b3e002efb9da0)
+- fix [`54ae32f`](https://github.com/pixelcollective/tinypixel.io/commit/54ae32f418f98450d4b31a5a89a079a08af387f6)
+- modified build before [`32b50a9`](https://github.com/pixelcollective/tinypixel.io/commit/32b50a91d27e5e5e05b40454068fbb58a5e71423)
+- fix build before step [`08ea54f`](https://github.com/pixelcollective/tinypixel.io/commit/08ea54f58e4377cd04e2dc312631e70c34bf5681)
+- fixes for filesize hopefully [`df793a7`](https://github.com/pixelcollective/tinypixel.io/commit/df793a722a1b932e6c4952271934b31910125358)
+- hopeful boy [`f087805`](https://github.com/pixelcollective/tinypixel.io/commit/f0878055b9553475ec8edec08bc82f8311452fe2)
+- im okay with this [`7117d69`](https://github.com/pixelcollective/tinypixel.io/commit/7117d69d98014bdce526c2b4d06fe43a2191d13f)
+- automoton commit [`880852d`](https://github.com/pixelcollective/tinypixel.io/commit/880852d9b636fa990e2915c40927116907c6ded4)
+- good stuff [`115031e`](https://github.com/pixelcollective/tinypixel.io/commit/115031e6974a75dab597830b3128f11053f1e671)
+- switch mad-reliable to vcs [`a58f6a8`](https://github.com/pixelcollective/tinypixel.io/commit/a58f6a83fc76591c85462fa3ba5ee7fb0f2c16ec)
+- feelin good [`cfad7cd`](https://github.com/pixelcollective/tinypixel.io/commit/cfad7cdc60ce0fd6dd84022ee084e327058ade63)
+- feelin good [`8395273`](https://github.com/pixelcollective/tinypixel.io/commit/8395273f3587a23d4c2771dc072732cee7495b0b)
+- more prog [`7ed3393`](https://github.com/pixelcollective/tinypixel.io/commit/7ed3393f37ab13c66ae48067106b9015a2a9b9b4)
+- update to composer dependencies [`9772649`](https://github.com/pixelcollective/tinypixel.io/commit/9772649cec8ea7f1515642b057bb48025195860d)
+- spacing adjustment on front_page template [`f08c4d3`](https://github.com/pixelcollective/tinypixel.io/commit/f08c4d3f609d7bcb64fe1729f9213508de8f1e56)
+- bad move [`bcc7987`](https://github.com/pixelcollective/tinypixel.io/commit/bcc798782e5dd9a2fa2562995686a6dd98968c99)
+- ugh [`41d3c37`](https://github.com/pixelcollective/tinypixel.io/commit/41d3c375b111593a12bdb3d825060bbb6e541d1d)
+- tabor got the goods [`4a5002d`](https://github.com/pixelcollective/tinypixel.io/commit/4a5002df189bdfcaffdccf40a7d98a0dacdd7835)
+- pretty! [`2e68723`](https://github.com/pixelcollective/tinypixel.io/commit/2e68723ad984de80d32e1dccd29f051c0722378f)
+- tinypixelftw [`f71ed40`](https://github.com/pixelcollective/tinypixel.io/commit/f71ed40e0e72827e9654ca298c64e130408639a3)
+- yawn [`72279b9`](https://github.com/pixelcollective/tinypixel.io/commit/72279b9710729b774ccd31421d0db969db6c951e)
+- yawn [`803ad0b`](https://github.com/pixelcollective/tinypixel.io/commit/803ad0b908b78b4f44a3b18fe148d787346b70c4)
+- offload to git. ezpz [`7c04fc3`](https://github.com/pixelcollective/tinypixel.io/commit/7c04fc365aa36679cee5f3abc5ae48b9b95bc38e)
+- strugglebus today [`f1f1ccf`](https://github.com/pixelcollective/tinypixel.io/commit/f1f1ccf9640a018d1a559239b3c4d4b5791a5603)
+- strugglebus today [`511b9aa`](https://github.com/pixelcollective/tinypixel.io/commit/511b9aa50467c31d032ef3424bb08b99559aabef)
+- huh [`9f4b250`](https://github.com/pixelcollective/tinypixel.io/commit/9f4b25047fb1533deefe4649d814c6d713a6ac4c)
+- test [`875b1fe`](https://github.com/pixelcollective/tinypixel.io/commit/875b1fe890d599952cf23c2e60202e995c6a0758)
+- test [`e42eaef`](https://github.com/pixelcollective/tinypixel.io/commit/e42eaeff33cb7d5b8692caacae65163597357e8d)
+- test [`5282065`](https://github.com/pixelcollective/tinypixel.io/commit/528206504d94b09a72f91639b6802410600930e4)
+- bundle cpt plugin [`8685e41`](https://github.com/pixelcollective/tinypixel.io/commit/8685e41ed3616882243bd04e97919c2a7b380be5)
+- bundle cpt plugin [`23cca07`](https://github.com/pixelcollective/tinypixel.io/commit/23cca0799b734ac4c9a3fc5f36d92ffd75b4fe2b)
+- lookin good tex [`28bdefd`](https://github.com/pixelcollective/tinypixel.io/commit/28bdefd55a9fbb40088e0ce3f644c26f3b7a9108)
+- hmm [`b2bdc64`](https://github.com/pixelcollective/tinypixel.io/commit/b2bdc64bb80b006bc216e250618ff47953002f7c)
+- fixed stylesheet [`61f52dc`](https://github.com/pixelcollective/tinypixel.io/commit/61f52dcdebbf8d2da6c008935f3154495b0dc368)
+- lexical error whaaza? [`039629e`](https://github.com/pixelcollective/tinypixel.io/commit/039629e1ed7d0aa7000f662837320e792077b078)
+- removed .git submodule [`7871875`](https://github.com/pixelcollective/tinypixel.io/commit/78718757102b8a45b81e9f87547890bd635171d2)
+- new day new theme [`54a55d7`](https://github.com/pixelcollective/tinypixel.io/commit/54a55d73498a777afb973144199fdd280255edcc)
+- fix [`a0bb3e6`](https://github.com/pixelcollective/tinypixel.io/commit/a0bb3e6fade0590abcf676c5ecb1a154b891a300)
+- fixer-upper [`12067a9`](https://github.com/pixelcollective/tinypixel.io/commit/12067a97a23b9478a92f409e0e1a869c7e6760e5)
+- development [`9cf617a`](https://github.com/pixelcollective/tinypixel.io/commit/9cf617a5cf3706347782404cc2be13099aef8182)
+- style tweaks [`4cb7321`](https://github.com/pixelcollective/tinypixel.io/commit/4cb7321e3345e60d14973f14d81c55795e6506a4)
+- style tweaks [`e476afd`](https://github.com/pixelcollective/tinypixel.io/commit/e476afd6983ef0095f4282ec435cbd321be7addd)
+- payment processing [`d5acd3c`](https://github.com/pixelcollective/tinypixel.io/commit/d5acd3c8ce680149daf601d5f52fa0c92477e4a7)
+- fix [`167b7d7`](https://github.com/pixelcollective/tinypixel.io/commit/167b7d7e2b816e23629c4b09dcc52116abb16cd7)
+- quick fix [`0618d4c`](https://github.com/pixelcollective/tinypixel.io/commit/0618d4ce75cb6acc25832a16759076c87d682654)
+- google analytics [`0adc705`](https://github.com/pixelcollective/tinypixel.io/commit/0adc705eb168cc483e188674f56c1a651cadfee0)
+- pre deploy [`0c177ee`](https://github.com/pixelcollective/tinypixel.io/commit/0c177ee6d67112852b5794e5fa73ad31c9cee5cd)
+- deploy to prod [`f991180`](https://github.com/pixelcollective/tinypixel.io/commit/f991180479f3c4ad1fe2be6adc093acfdcba1e05)
+- vault issue [`b61c3b3`](https://github.com/pixelcollective/tinypixel.io/commit/b61c3b374cf2ac9fc442d9aa57fcbde8d05cfa0f)
+- pre-provision [`4325135`](https://github.com/pixelcollective/tinypixel.io/commit/4325135d41a970d73ee382d5d68d730c36747b27)
+- initial commit [`7f118c3`](https://github.com/pixelcollective/tinypixel.io/commit/7f118c39bd684c359ae72116369ef76f23292d35)
