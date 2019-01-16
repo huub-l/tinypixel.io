@@ -2240,15 +2240,15 @@
         },
         {
             "name": "wpackagist-plugin/stackable-ultimate-gutenberg-blocks",
-            "version": "1.9.1",
+            "version": "1.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stackable-ultimate-gutenberg-blocks/",
-                "reference": "tags/1.9.1"
+                "reference": "tags/1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stackable-ultimate-gutenberg-blocks.1.9.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/stackable-ultimate-gutenberg-blocks.1.10.zip",
                 "reference": null,
                 "shasum": null
             },
