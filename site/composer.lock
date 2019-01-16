@@ -2060,15 +2060,15 @@
         },
         {
             "name": "wpackagist-plugin/easy-digital-downloads",
-            "version": "2.9.9",
+            "version": "2.9.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/easy-digital-downloads/",
-                "reference": "tags/2.9.9"
+                "reference": "tags/2.9.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/easy-digital-downloads.2.9.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/easy-digital-downloads.2.9.11.zip",
                 "reference": null,
                 "shasum": null
             },
