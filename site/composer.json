@@ -105,7 +105,7 @@
     "advanced-custom-fields/advanced-custom-fields-pro": ">=5",
     "samrap/acf-fluent": "^0.4.0",
     "log1x/sage-password-protected": "^1.0",
-    "wp-graphql/wp-graphql": "^0.1.1",
+    "wp-graphql/wp-graphql": "^0.2.2",
     "wp-graphql/wp-graphiql": "^0.3.0",
     "wpackagist-plugin/wp-term-order": "^0.1.4",
     "wpackagist-plugin/wp-user-profiles": "^2.1",
