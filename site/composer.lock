@@ -1899,7 +1899,7 @@
         },
         {
             "name": "wpackagist-plugin/block-gallery",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-gallery/",
@@ -1907,7 +1907,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1546382503"
+                "url": "https://downloads.wordpress.org/plugin/block-gallery.zip?timestamp=1550267685"
             },
             "require": {
                 "composer/installers": "~1.0"
