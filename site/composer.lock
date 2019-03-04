@@ -1971,7 +1971,7 @@
         },
         {
             "name": "wpackagist-plugin/coblocks",
-            "version": "1.5.3",
+            "version": "1.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coblocks/",
@@ -1979,7 +1979,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coblocks.zip?timestamp=1546620655"
+                "url": "https://downloads.wordpress.org/plugin/coblocks.zip?timestamp=1550085898"
             },
             "require": {
                 "composer/installers": "~1.0"
