@@ -1863,15 +1863,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg-blocks",
-            "version": "1.6",
+            "version": "1.8.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg-blocks/",
-                "reference": "tags/1.6"
+                "reference": "tags/1.8.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg-blocks.1.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg-blocks.1.8.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
