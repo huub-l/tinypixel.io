@@ -2131,15 +2131,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "3.6.3",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/3.6.3"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.3.6.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
