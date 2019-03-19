@@ -2221,15 +2221,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "1.4.3",
+            "version": "1.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/1.4.3"
+                "reference": "tags/1.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.1.4.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.1.4.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
