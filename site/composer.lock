@@ -1709,16 +1709,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v0.2.2",
+            "version": "v0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "948d94f40b051baedd3c01a65e047ba5abc5e482"
+                "reference": "beb42d76aeeeafe66ff278b82b3fd8a5bf5fb129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/948d94f40b051baedd3c01a65e047ba5abc5e482",
-                "reference": "948d94f40b051baedd3c01a65e047ba5abc5e482",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/beb42d76aeeeafe66ff278b82b3fd8a5bf5fb129",
+                "reference": "beb42d76aeeeafe66ff278b82b3fd8a5bf5fb129",
                 "shasum": ""
             },
             "require": {
@@ -1760,10 +1760,10 @@
             ],
             "description": "GraphQL API for WordPress",
             "support": {
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v0.2.2",
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v0.2.3",
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues"
             },
-            "time": "2019-02-26T22:14:38+00:00"
+            "time": "2019-03-18T22:03:35+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg-blocks",
